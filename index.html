@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>台灣駭客年會 HITCON CMT 2016</title>
+	<link rel="stylesheet" href="./css/style.css">
+
+	<meta name="author" content="HITCON">
+	<meta name="keywords" content="駭客,HITCON">
+	<meta name="description" property="og:description" content="台灣駭客年會 HITCON 2016 - [Community] 7/22(Fri) ~ 7/23(Sat), 中央研究院 人文社會科學館 國際會議廳 Academia Sinica Humanities and Social Sciences Building">
+
+	<meta property="og:title" name="twitter:title" content="台灣駭客年會 HITCON CMT 2016">
+	<meta property="og:site_name" content="HITCON">
+	<meta property="og:url" content="https://hitcon.org/2016/CMT/">
+	<meta property="og:type" content="website">
+	<meta property="og:image" name="twitter:image" content="https://hitcon.org/2016/CMT/images/og/fb.png">
+	<meta property="og:locale" content="zh_TW">
+	<meta property="fb:app_id" content="110257429064833">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:description" content="台灣駭客年會 HITCON 2016 - [Community] 7/22(Fri) ~ 7/23(Sat), 中央研究院 人文社會科學館 國際會議廳 Academia Sinica Humanities and Social Sciences Building">
+	<meta name="twitter:site" content="@HacksInTaiwan">
+
+	<link rel="icon" type="image/png" sizes="192x192" href="./images/favicon/favicon.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="./images/favicon/apple-touch-icon-ipad-1x.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="./images/favicon/apple-touch-icon-ipad-2x.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="./images/favicon/apple-touch-icon-iphone-2x.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon-iphone-3x.png">
+	<link rel="apple-touch-icon" href="./images/favicon/apple-touch-icon.png">
+</head>
+<body>
+	<header>
+		<h1><a onclick="launchApp(hitcon_registration)" href="javascript: launchApp(hitcon_registration)">台灣駭客年會 HITCON 2016 - Community</a></h1>
+		<div class="ui-status">
+			<div class="ui-stack"></div>
+			<div id="status-bar-clock" class="ui-clock">9:41</div>
+		</div>
+	</header>
+	<nav>
+		<h2 class="hidden-words">Navigation</h2>
+		<ul>
+			<li><a href="javascript: launchApp(hitcon_introduction)">Introduction</a></li>
+			<li><a href="javascript: launchApp(hitcon_agenda)">Agenda</a></li>
+			<li><a href="javascript: launchApp(hitcon_events)">Events</a></li>
+			<li><a href="javascript: launchApp(hitcon_location)">Location</a></li>
+			<li><a href="javascript: launchApp(hitcon_sponsors)">Sponsors</a></li>
+			<li><a href="javascript: launchApp(hitcon_team)">Team</a></li>
+		</ul>
+		<div class="burger-king" onclick="openAppMenu()"></div>
+	</nav>
+	<article class="main-desktop">
+		<h2 class="hidden-words">HITCON 2016 Community</h2>
+		<aside class="desktop-icons">
+			<ul>
+				<li>
+					<a href="javascript: launchApp(hitcon_registration)"><span class="app-icon ico-hitcon"></span><span class="app-label">HITCON 2016</span></a>
+				</li>
+				<li>
+					<a href="javascript: launchApp(hitcon_introduction)"><span class="app-icon ico-txt"></span><span class="app-label">Introduction</span></a>
+				</li>
+				<li>
+					<a href="javascript: launchApp(hitcon_agenda)"><span class="app-icon ico-txt"></span><span class="app-label">Agenda</span></a>
+				</li>
+				<li>
+					<a href="javascript: launchApp(hitcon_events)"><span class="app-icon ico-folder"></span><span class="app-label">Events</span></a>
+				</li>
+				<li>
+					<a href="javascript: launchApp(hitcon_location)"><span class="app-icon ico-txt"></span><span class="app-label">Location</span></a>
+				</li>
+				<li>
+					<a href="javascript: launchApp(hitcon_sponsors)"><span class="app-icon ico-txt"></span><span class="app-label">Organizers and Sponsors</span></a>
+				</li>
+				<li>
+					<a href="javascript: launchApp(hitcon_team)"><span class="app-icon ico-txt"></span><span class="app-label">Team</span></a>
+				</li>
+				<li>
+					<a href="javascript: launchApp(hitcon_coc)"><span class="app-icon ico-txt"></span><span class="app-label">Code of Conduct</span></a>
+				</li>
+			</ul>
+		</aside>
+		<section id="hitcon_registration" class="ui-window" style="top: 38px; left: 200px">
+			<div class="ui-window-header">
+				<h3>HITCON 2016 Community</h3>
+			</div>
+			<div class="ui-window-scene">
+				<p class="logo"><img src="./images/hitcon-logo-pixel.png" alt="HITCON 2016" width="200"></p>
+				<p>2016.7.22(五) - 7.23(六)</p>
+				<p>2016.7.22(Fri) - 7.23(Sat)</p>
+				<p>中央研究院 人文社會科學館 國際會議廳</p>
+				<p>Academia Sinica Humanities <br>&amp; Social Sciences Building</p>
+				<!-- <p><a class="cfp" href="https://cfp2016.hitcon.org/en/" target="_blank"><span>徵稿 Call for Papers!</span></a></p> -->
+				<p><a class="regis" href="http://reg.hitcon.org/2016-cmt" target="_blank"><span>買票 Registration</span></a></p>
+			</div>
+		</section>
+		<section>
+			<div id="hitcon_introduction" class="ui-window ui-window-closed" style="top: 38px; left: 220px">
+				<div class="ui-window-header">
+					<h3>Introduction</h3>
+					<div class="ui-window-close"></div>
+				</div>
+				<div class="ui-window-scene ui-window-scene-title-img">
+					<h4>What is HITCON</h4>
+					<p>在純技術的領域裡面沒有黑與白，我們認為駭客是代表著高超的技術、挑戰的精神。</p>
+					<p>有別於一般商業性質濃厚之研討會，台灣駭客年會提供了一個舞台，讓駭客們有機會與大家分享最新與最深入的資安技術，面對面交換經驗，自由的對談。大會對於會議議程的內容相當謹慎，我們希望確保在駭客年會上發表的內容，是不帶商業色彩的安全研究、是最新的趨勢探討，或者是夠水準的駭客技術，也希望每一場演講都是參與者最想關注的議題。</p>
+					<p>台灣駭客年會是駭客們的聚會，駭客們一年一度的party。除了技術的分享，也可體驗到真正的駭客文化，在駭客與駭客社群的交流下，常常有最新最有趣也最敏感的議題。我們歡迎所有對資訊安全有興趣的朋友一同參與這每年一度的盛會。 </p>
+					<h4>HITCON Community</h4>
+					<p>HITCON Community 不僅是國內最具含量的純技術資安研討會，更是一場多元豐富的嘉年華會，除了精彩絕倫的技術議程外，亦規劃一系列資安相關活動。如各種社群活動攤位、Hack2Own 競賽、奇葩獎等，使每一位對資安有興趣的朋友，無論是專家駭客或入門者，都得以在這場盛會中有所收穫、盡興而歸。</p>
+					<p>臺灣向來是各式資訊社群發展蓬勃的精華地區，資安社群自然也不例外。我們希望維持 HITCON 傳統，與國內外資安社群共同成長。為促進社群力量的傳承，本年度大會也特地設立社群專屬議程，鼓勵各社群站上 HITCON 舞台展現研究成果及推廣自身精神，讓 HITCON 不僅是 HITCON，而是一場全民的資安盛會。</p>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div id="hitcon_agenda" class="ui-window ui-window-closed" style="top: 38px; left: 220px">
+				<div class="ui-window-header">
+					<h3>Agenda</h3>
+					<div class="ui-window-close"></div>
+				</div>
+				<div class="ui-window-scene ui-window-scene-title-img" id="agenda_table"></div>
+			</div>
+		</section>
+		<section>
+			<div id="hitcon_events" class="ui-window ui-window-closed" style="top: 38px; left: 220px">
+				<div class="ui-window-header">
+					<h3>Events</h3>
+					<div class="ui-window-close"></div>
+				</div>
+				<div class="ui-window-scene">
+					<ul>
+						<li><a href="javascript: launchApp(hitcon_events_lightingtalk)"><span class="app-icon ico-txt"></span><span class="app-label">Lightning Talk</span></a></li>
+						<li><a href="javascript: launchApp(hitcon_events_the78award)"><span class="app-icon ico-txt"></span><span class="app-label">The 78 Award</span></a></li>
+						<li><a href="javascript: launchApp(hitcon_events_communitysharing)"><span class="app-icon ico-txt"></span><span class="app-label">Community Sharing</span></a></li>
+						<li><a href="javascript: launchApp(hitcon_events_iownthisraspberrypi)"><span class="app-icon ico-txt"></span><span class="app-label">I Own This<br> Raspberry Pi</span></a></li>
+						<li><a href="javascript: launchApp(hitcon_events_standsforhackers)"><span class="app-icon ico-txt"></span><span class="app-label">Stands for Hackers</span></a></li>
+					</ul>
+				</div>
+			</div>
+			<section>
+				<div id="hitcon_events_lightingtalk" class="ui-window ui-window-closed" style="top: 38px; left: 220px">
+					<div class="ui-window-header">
+						<h4>Lightning Talk</h4>
+						<div class="ui-window-close"></div>
+					</div>
+					<div class="ui-window-scene ui-window-scene-title-img">
+						<h5>活動資訊 Activity information</h5>
+						<ul>
+							<li>時間：HITCON CMT Day 2 下午</li>
+							<li>地點：HITCON CMT R0（國際會議廳）</li>
+							<li>對象：HITCON CMT 全體參與者</li>
+						</ul>
+						<ul>
+							<li>Time：HITCON CMT Day 2 afternoon</li>
+							<li>Location：HITCON CMT R0</li>
+							<li>Eligible：everyone in HITCON</li>
+						</ul>
+						<h5>演講資訊 Speech information</h5>
+						<ul>
+							<li>每場 Lightning Talk 長度 5 分鐘</li>
+							<li>共 8 位 Lightning Talk 名額</li>
+						</ul>
+						<ul>
+							<li>Each Lightning Talk is 5 minuets</li>
+							<li>Total 8 hosts</li>
+						</ul>
+						<h5>報名資訊 Apply information</h5>
+						<ul>
+							<li>時間：HITCON CMT Day 1 開幕時公告</li>
+							<li>地點：中研院人文科學館 三樓走廊</li>
+						</ul>
+						<ul>
+							<li>Time：HITCON CMT Day 1 annoucements</li>
+							<li>Apply Location：3rd floor hallway,<br> Academia Sinica Humanities &amp; Social Sciences Building</li>
+						</ul>
+						<h5>注意事項 Notice</h5>
+						<ul>
+							<li>報名時需寫下講者大名及講題</li>
+							<li>以登記先後順序為準，額滿為止</li>
+							<li>大會將於講者登記時告知舞台設備測試時間</li>
+						</ul>
+						<ul>
+							<li>For applying, write down your name and speech title</li>
+							<li>First come first serve</li>
+							<li>We will inform you the rehearsal while you apply</li>
+						</ul>
+					</div>
+				</div>
+				<div id="hitcon_events_the78award" class="ui-window ui-window-closed" style="top: 38px; left: 220px">
+					<div class="ui-window-header">
+						<h4>The 78 Award</h4>
+						<div class="ui-window-close"></div>
+					</div>
+					<div class="ui-window-scene ui-window-scene-title-img">
+						<h5>奇葩獎</h5>
+						<p>從 2013 年開始，HITCON 除了安排精彩的議程外，更舉辦了「奇葩獎」的活動 。</p>
+						<p>「奇葩獎」是在台灣駭客年會議程中的一個特別節目，所謂奇葩，常被用來比喻不同尋常或是特別出眾的事物，奇葩獎的目的便是在於希望能表彰奇葩駭客們的努力，以及過去一年中各種奇葩和值得尊敬的事件，期望在輕鬆詼諧氣氛下，為議程添加更多元的色彩，並促進台灣社會對資安事件的關注。</p>
+						<p>HITCON 奇葩獎除了在每年的議程中進行頒獎活動外，我們也在 Facebook 上成立了<a href="https://www.facebook.com/groups/HITCON78awards/" target="_blank">奇葩獎討論區</a>，讓大家除了在活動時可以了解資安事件外，也可以在活動結束後於討論區內進行分享，讓大家可以即時得知最新的奇葩資安事件，並且互相討論交流心得，歡迎大家加入我們的奇葩獎社團，一起關注有趣的資安奇聞軼事。</p>
+						<h5>The 78 Award</h5>
+						<p>Since 2013, HITCON not only arranges marvelous sessions, but also this special event: “The 78 Award”.</p>
+						<p>“The 78 Award” is a unique event among HITCON events. “78” is often used to describe things that are bizzare or extraordinary. Therefore, the goal of “The 78 Award” is to give credit to the efforts of those “78” hackers and the many respectful “78” events in the past year. Hopefully, having some humor in the air can bring more diversity and attention to Information Security events in Taiwan society.</p>
+						<p>Other than the annual HITCON “78” award ceromony, we also have a discussion group “<a href="https://www.facebook.com/groups/HITCON78awards/" target="_blank">The 78 Awards</a>” on Facebook. This is the place to learn about Information Security events during HITCON sessions, and continue to share and discuss about the “78” events even after the sessions have finished. We welcome you all to join “The 78 Award” Facebook goup and follow up on the latest, bizarre securtiy anecdotes.</p>
+					</div>
+				</div>
+				<div id="hitcon_events_communitysharing" class="ui-window ui-window-closed" style="top: 38px; left: 220px">
+					<div class="ui-window-header">
+						<h4>Community Sharing</h4>
+						<div class="ui-window-close"></div>
+					</div>
+					<div class="ui-window-scene ui-window-scene-title-img">
+						<h5>社群分享</h5>
+						<p>為了給社群朋友們一個獨立的舞台分享資安議題，同時提供參與者更多選擇，HITCON Community 大會特別規劃了社群分享活動，讓各社群能在這場一年一度的盛會中，發表其在資安相關議題上的研究成果。</p>
+						<ul>
+							<li>時間：2016/07/22 ~ 2016/07/23</li>
+							<li>地點：R4</li>
+						</ul>
+					</div>
+				</div>
+				<div id="hitcon_events_iownthisraspberrypi" class="ui-window ui-window-closed" style="top: 38px; left: 220px">
+					<div class="ui-window-header">
+						<h4>I Own This Raspberry Pi</h4>
+						<div class="ui-window-close"></div>
+					</div>
+					<div class="ui-window-scene ui-window-scene-title-img">
+						<h5>I Own This Raspberry Pi</h5>
+						<ul>
+							<li>時間：2016/07/22 ~ 2016/07/23</li>
+							<li>地點：R0 R1 R2</li>
+							<li>獎項：Raspberry Pi</li>
+						</ul>
+						<p>這是一個真實的戰爭，唯有拿下主機、確保它不會被他人奪走，才能獲得獎賞。因此你必須小心翼翼、避免任何破壞設備、或是讓設備斷線。將主機的首頁換成你的大名，宣揚你的戰績吧！</p>
+						<p>This is war! The only way to win and get the prize is by taking down the host and preventing it from being taken away. You must be extra cautious, keep the device undamaged and always connected! Replace the host’s mainpage with YOUR NAME and show off your victory!</p>
+						<h5>規則 Rules</h5>
+						<ul>
+							<li>各會議廳皆有屬於當前會議廳的 Raspberry Pi 挑戰題，請至當前會議廳連上 WIFI 方可開始挑戰。</li>
+							<li>活動當天將於開幕時說明競賽詳細規則，並公佈題目網址。</li>
+							<li>將設備置換首頁成指定格式直到競賽最後一刻即可獲得領獎資格（指定格式為 "Hacked by _____"，底線則為自己在網站註冊之暱稱）。</li>
+						</ul>
+						<ul>
+							<li>Each conference room has its own corresponding Raspberry Pi Challenge, you may start the challenge once you connect to the room’s WIFI.</li>
+							<li>The game specifics will be given on the opening day along with the web URL of the challenge.</li>
+							<li>Whoever replaced the homepage of the device with the specified format at the last moment of this Challenge can win the award. (Specified format: “Hackedy by _______”, use the nickname registered on-line)</li>
+						</ul>
+						<h5>競賽期間，做出以下違規事項者將直接取消資格：</h5>
+						<h5>The following actions will result in disqualification:</h5>
+						<ul>
+							<li>散播、與其它隊伍交換關卡金鑰。</li>
+							<li>進行任何破壞競賽公平公正原則之行為。</li>
+							<li>對競賽中提供的關卡外的競賽系統、參賽者及其它人員進行攻擊。</li>
+						</ul>
+						<ul>
+							<li>Share or exchange SECRET KEY of the challenge with other teams.</li>
+							<li>Actions that undermine the fairness of the challenge.</li>
+							<li>Perform attacks on systems, other contestants, or people that are not listed in the Challenge.</li>
+						</ul>
+					</div>
+				</div>
+				<div id="hitcon_events_standsforhackers" class="ui-window ui-window-closed" style="top: 38px; left: 220px">
+					<div class="ui-window-header">
+						<h4>Stands for Hackers</h4>
+						<div class="ui-window-close"></div>
+					</div>
+					<div class="ui-window-scene ui-window-scene-title-img">
+						<ul class="stands-list">
+							<li class="stand">
+								<ul>
+									<li class="stand-name"><span class="hidden-words">名稱：</span>天瓏書商</li>
+									<li class="stand-posi">位置 Location：3樓 北側 / 3F North</li>
+									<li class="stand-type">類型 Type：邀請</li>
+								</ul>
+							</li>
+							<li class="stand">
+								<ul>
+									<li class="stand-name"><span class="hidden-words">名稱：</span>咖啡意識 Coffice</li>
+									<li class="stand-posi">位置 Location：3樓 南側 / 3F South</li>
+									<li class="stand-type">類型 Type：官方 Official</li>
+									<li class="stand-intr"><span class="hidden-words">簡介：</span>聽了整天的議程、逛了許多攤位覺得有點累了，需要來點咖啡因提神嗎？本次 HITCON 邀請到林大中先生為各位提供現煮咖啡，每日限量供應，就在三樓的某處，請跟隨香濃的咖啡香來這裡為自己補充滿滿能量吧！</li>
+								</ul>
+							</li>
+							<li class="stand">
+								<ul>
+									<li class="stand-name"><span class="hidden-words">名稱：</span>人才招募攤位</li>
+									<li class="stand-posi">位置 Location：4樓 南側 / 4F South</li>
+									<li class="stand-type">類型 Type：合作與贊助 Partners and Sponsors</li>
+									<li class="stand-intr"><span class="hidden-words">簡介：</span>Sudo、關貿網路、雷亞遊戲、TWCERT/CC</li>
+								</ul>
+							</li>
+							<li class="stand">
+								<ul>
+									<li class="stand-name"><span class="hidden-words">名稱：</span>校園資訊安全推廣</li>
+									<li class="stand-posi">位置 Location：4樓 北側 / 4F North</li>
+									<li class="stand-type">類型 Type：一般 General</li>
+									<li class="stand-intr"><span class="hidden-words">簡介：</span>「校園資訊安全推廣」是師大資訊研究社以社團形式在校園裡埋下的資安種籽，將介紹社團課程與系列活動規劃，希望與各方交流經驗與理念。</li>
+								</ul>
+							</li>
+							<li class="stand">
+								<ul>
+									<li class="stand-name"><span class="hidden-words">名稱：</span>RAT</li>
+									<li class="stand-posi">位置 Location：4樓 北側 / 4F North</li>
+									<li class="stand-type">類型 Type：社群 Community</li>
+									<li class="stand-intr"><span class="hidden-words">簡介：</span>RAT 規劃了 Hack Me 101 的小型資安競賽活動，期許大家更能了解在生活中可能遇到的資安問題。</li>
+								</ul>
+							</li>
+							<li class="stand">
+								<ul>
+									<li class="stand-name"><span class="hidden-words">名稱：</span>UCCU</li>
+									<li class="stand-posi">位置 Location：4樓 北側 / 4F North</li>
+									<li class="stand-type">類型 Type：社群 Community</li>
+									<li class="stand-intr"><span class="hidden-words">簡介：</span>南部學生為主的 UCCU 準備了實體解鎖挑戰賽，藉由實體鎖頭的開鎖經驗，讓大家一起回過頭來思考實體安全防護議題。</li>
+								</ul>
+							</li>
+							<li class="stand">
+								<ul>
+									<li class="stand-name"><span class="hidden-words">名稱：</span>The Declaration of Hacker (TDOH)</li>
+									<li class="stand-posi">位置 Location：4樓 北側 / 4F North</li>
+									<li class="stand-type">類型 Type：社群 Community</li>
+									<li class="stand-intr"><span class="hidden-words">簡介：</span>TDOH 準備了 Wargame 讓會眾可以小試身手展現攻防能力之外，還有以交流、提供學習資源為目標的 Hacker bar，想轉換跑道的年輕工程師可來此瞭解資安技能樹養成攻略，更提供年底將在台中舉辦的 TDOHConf 的活動贈票。</li>
+								</ul>
+							</li>
+							<li class="stand">
+								<ul>
+									<li class="stand-name"><span class="hidden-words">名稱：</span>BambooFox</li>
+									<li class="stand-posi">位置 Location：4樓 北側 / 4F North</li>
+									<li class="stand-type">類型 Type：社群 Community</li>
+									<li class="stand-intr"><span class="hidden-words">簡介：</span>由交大學生組成的 Bamboofox 準備了闖關任務讓大家小試身手，在體驗 CTF 樂趣的同時，亦可提升大家對資安議題的敏銳度。</li>
+								</ul>
+							</li>
+							<li class="stand">
+								<ul>
+									<li class="stand-name"><span class="hidden-words">名稱：</span>CHROOT</li>
+									<li class="stand-posi">位置 Location：4樓 東側 / 4F East</li>
+									<li class="stand-type">類型 Type：官方 Official</li>
+								</ul>
+							</li>
+							<li class="stand">
+								<ul>
+									<li class="stand-name"><span class="hidden-words">名稱：</span>HITCON GIRLS</li>
+									<li class="stand-posi">位置 Location：4樓 東側 / 4F East</li>
+									<li class="stand-type">類型 Type：官方 Official</li>
+									<li class="stand-intr"><span class="hidden-words">簡介：</span>HITCON GIRLS 是一群以女性為主的探險隊，陪伴對資安世界好奇的女孩們一起探索知識、克服問題。這次將在攤位上提供由淺入深的 Wargame，初探資安領域的初學者能由此踏上冒險的第一步。</li>
+								</ul>
+							</li>
+							<li class="stand">
+								<ul>
+									<li class="stand-name"><span class="hidden-words">名稱：</span>HITCON ZeroDay</li>
+									<li class="stand-posi">位置 Location：4樓 東側 / 4F East</li>
+									<li class="stand-type">類型 Type：官方 Official</li>
+								</ul>
+							</li>
+							<li class="stand">
+								<ul>
+									<li class="stand-name"><span class="hidden-words">名稱：</span>紀念品 Souvenir!</li>
+									<li class="stand-posi">位置 Location：4樓 東側 / 4F East</li>
+									<li class="stand-type">類型 Type：官方 Official</li>
+									<li class="stand-intr"><span class="hidden-words">簡介：</span>HITCON CMT 2016 準備了豐富多元的紀念品，讓駭客精神伴你左右！無論是筆記本、手機擦拭貼等生活實用小物，還是超有梗的紙膠帶、讓你生活更有型的帽 T、背包等。有質感的實體週邊商品，將為你留存 HITCON 的專屬回憶。</li>
+								</ul>
+							</li>
+							<li class="stand">
+								<ul>
+									<li class="stand-name"><span class="hidden-words">名稱：</span>桌遊 HITCON Board Game!</li>
+									<li class="stand-posi">位置 Location：4樓 東側 / 4F East</li>
+									<li class="stand-type">類型 Type：官方 Official</li>
+									<li class="stand-intr"><span class="hidden-words">簡介：</span>這套已經絕版的夢幻逸品，將在 HITCON CMT 2016 活動現場開放會眾一起同樂！目前此款 HITCON 桌遊暫無再版計畫，錯過這次，下次要再碰到它，不知是何年何月囉！</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</section>
+		<section>
+			<div id="hitcon_location" class="ui-window ui-window-closed" style="top: 38px; left: 240px">
+				<div class="ui-window-header">
+					<h3>Location</h3>
+					<div class="ui-window-close"></div>
+				</div>
+				<div class="ui-window-scene ui-window-scene-title-img">
+					<div class="google-map" style="height: 300px;">
+						<div id="map_canvas" style="height: 100%"></div>
+						<!-- /.old-screen -->
+					</div>
+					<h4>地點 Venue</h4>
+					<p>中央研究院 人文社會科學館 國際會議廳</p>
+					<p>Academia Sinica Humanities &amp; Social Sciences Building</p>
+					<p>台北市南港區研究院路二段128號</p>
+					<p>No.128, Sec. 2, Academia Rd., Nangang Dist., Taipei City 115, Taiwan</p>
+					<h4>交通 Transportation</h4>
+					<h5>公車路線 Bus Line</h5>
+					<p>205、212(直行/區間)、270、276、306、620、645(中研院站，前一站為中研新村站)</p>
+					<p>Bus lines 205, 212, 270, 276, 306, 620, 645 all go to Academia Sinica</p>
+					<h5>捷運 MRT</h5>
+					<p>搭捷運板南線至南港站(1號出口)換乘公車212(直行/區間)、270或藍25至中研院站</p>
+					<p>搭捷運文湖線至南港展覽館站(2號出口)，走至南港國小對面換乘公車205、276、306或645至中研院站</p>
+					<p>Take the Nankang-Banqiao-Tucheng line to Nankang Station, and then transfer to Bus 212, 270 or Blue 25 to go to Academia Sinica.</p>
+					<h5>火車 TRA Train</h5>
+					<p>至「南港站」換乘公車212、270或藍25(中研院站)。</p>
+					<p>Transfer to Bus 212, 270 or Blue 25 at Nankang Train Station to go to Academia Sinica.</p>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div id="hitcon_sponsors" class="ui-window ui-window-closed" style="top: 38px; left: 100px">
+				<div class="ui-window-header">
+					<h3>Organizers and Sponsors</h3>
+					<div class="ui-window-close"></div>
+				</div>
+				<div class="ui-window-scene" target="_blank">
+					<h4>主辦 Organizers</h4>
+					<ul class="sponsor-list">
+						<li>
+							<a href="https://hitcon.org" target="_blank">
+								<span class="logo"><img src="./images/sponsors/hitcon.png" alt="台灣駭客協會 HITCON" title="台灣駭客協會 HITCON" width="200"></span>
+								<span class="char">主辦單位</span><span class="hidden-words">：</span>
+								<span class="name">台灣駭客協會 HITCON</span>
+							</a>
+						</li>
+						<li>
+							<a href="http://www.chroot.org" target="_blank">
+								<span class="logo"><img src="./images/sponsors/chroot.png" alt="CHROOT" title="CHROOT" width="200"></span>
+								<span class="char">主辦單位</span><span class="hidden-words">：</span>
+								<span class="name">CHROOT</span>
+							</a>
+						</li>
+					</ul>
+					<h4>贊助 Sponsors</h4>
+					<ul class="sponsor-list">
+						<li>
+							<a href="http://www.ncsist.org.tw/csistdup/jobs/page03.html" target="_blank">
+								<span class="logo"><img src="./images/sponsors/twcert.png" alt="TWCERT" title="TWCERT" width="200"></span>
+								<span class="char">人才招募贊助商</span><span class="hidden-words">：</span>
+								<span class="name">台灣電腦網路危機處理暨協調中心 Taiwan Computer Emergency Response Team / Coordination Center (TWCERT/CC)</span>
+							</a>
+						</li>
+						<li class="sponsor-rayark">
+							<a href="http://www.rayark.com/event/jobs/index.html" target="_blank">
+								<span class="logo"><img src="./images/sponsors/rayark.png" alt="雷亞遊戲 Rayark Inc." title="雷亞遊戲 Rayark Inc." width="200"></span>
+								<span class="char">人才招募贊助商</span><span class="hidden-words">：</span>
+								<span class="name">雷亞遊戲 Rayark Inc.</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=3f5149724773465d3839416a33353e21947674a735d4d4728282828253f682d2c917j02&jobsource=#info06" target="_blank">
+								<span class="logo"><img src="./images/sponsors/tradevan.png" alt="關貿網路股份有限公司" title="關貿網路股份有限公司" width="200"></span>
+								<span class="char">人才招募贊助商</span><span class="hidden-words">：</span>
+								<span class="name">關貿網路股份有限公司</span>
+							</a>
+						</li>
+					</ul>
+					<h4>特別合作 Special Sponsors</h4>
+					<ul class="sponsor-list">
+						<li>
+							<a href="https://sudo.com.tw/" target="_blank">
+								<span class="logo"><img src="./images/sponsors/sudo.png" alt="Sudo" title="Sudo" width="200"></span>
+								<span class="char">人才招募合作廠商</span><span class="hidden-words">：</span>
+								<span class="name">速度資訊股份有限公司 Sudo</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.itsa.org.tw/" target="_blank">
+								<span class="logo"><img src="./images/sponsors/itsa.png" alt="教育部資通訊軟體創新人才推升計畫" title="教育部資通訊軟體創新人才推升計畫" width="200"></span>
+								<span class="char">人才招募合作廠商</span><span class="hidden-words">：</span>
+								<span class="name">教育部資通訊軟體創新人才推升計畫</span>
+							</a>
+						</li>
+					</ul>
+					<h4>會議伙伴 Partners</h4>
+					<ul class="sponsor-list-4">
+						<li>
+							<a href="http://www.avtokyo.org/" target="_blank">
+								<span class="logo"><img src="./images/sponsors/avtokyo.png" alt="AVTokyo" title="AVTokyo" width="200"></span>
+								<span class="char">會議伙伴</span><span class="hidden-words">：</span>
+								<span class="name">AVTokyo</span>
+							</a>
+						</li>
+						<li>
+							<a href="http://codeblue.jp" target="_blank">
+								<span class="logo"><img src="./images/sponsors/codeblue.png" alt="CODE BLUE" title="CODE BLUE" width="200"></span>
+								<span class="char">會議伙伴</span><span class="hidden-words">：</span>
+								<span class="name">CODE BLUE</span>
+							</a>
+						</li>
+						<li>
+							<a href="http://gsec.hitb.org" target="_blank">
+								<span class="logo"><img src="./images/sponsors/hitbgsec.png" alt="HITB GSEC" title="HITB GSEC" width="200"></span>
+								<span class="char">會議伙伴</span><span class="hidden-words">：</span>
+								<span class="name">HITB GSEC</span>
+							</a>
+						</li>
+						<li>
+							<a href="http://www.powerofcommunity.net" target="_blank">
+								<span class="logo"><img src="./images/sponsors/poc.png" alt="Power Of Community" title="Power Of Community" width="200"></span>
+								<span class="char">會議伙伴</span><span class="hidden-words">：</span>
+								<span class="name">Power Of Community</span>
+							</a>
+						</li>
+						<li>
+							<a href="http://secuinside.com" target="_blank">
+								<span class="logo"><img src="./images/sponsors/secuinside.png" alt="SecuInside" title="SecuInside" width="200"></span>
+								<span class="char">會議伙伴</span><span class="hidden-words">：</span>
+								<span class="name">SecuInside</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.syscan360.org" target="_blank">
+								<span class="logo"><img src="./images/sponsors/syscan360.png" alt="Syscan 360" title="Syscan 360" width="200"></span>
+								<span class="char">會議伙伴</span><span class="hidden-words">：</span>
+								<span class="name">Syscan 360</span>
+							</a>
+						</li>
+						<li>
+							<a href="http://thotcon.org/" target="_blank">
+								<span class="logo"><img src="./images/sponsors/thotcon.png" alt="THOTCON" title="THOTCON" width="200"></span>
+								<span class="char">會議伙伴</span><span class="hidden-words">：</span>
+								<span class="name">THOTCON</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.troopers.de" target="_blank">
+								<span class="logo"><img src="./images/sponsors/troopers.png" alt="TROOPERS" title="TROOPERS" width="200"></span>
+								<span class="char">會議伙伴</span><span class="hidden-words">：</span>
+								<span class="name">TROOPERS</span>
+							</a>
+						</li>
+						<li>
+							<a href="http://uisgcon.org" target="_blank">
+								<span class="logo"><img src="./images/sponsors/uisgcon.png" alt="UISGCon" title="UISGCon" width="200"></span>
+								<span class="char">會議伙伴</span><span class="hidden-words">：</span>
+								<span class="name">UISGCon</span>
+							</a>
+						</li>
+						<li>
+							<a href="http://www.vxsecurityresearch.org/vxcon/" target="_blank">
+								<span class="logo"><img src="./images/sponsors/vxcon.png" alt="VXCON" title="VXCON" width="200"></span>
+								<span class="char">會議伙伴</span><span class="hidden-words">：</span>
+								<span class="name">VXCON</span>
+							</a>
+						</li>
+						<li>
+							<a href="http://www.wooyun.org" target="_blank">
+								<span class="logo"><img src="./images/sponsors/wooyun.png" alt="WooYun" title="WooYun" width="200"></span>
+								<span class="char">會議伙伴</span><span class="hidden-words">：</span>
+								<span class="name">WooYun</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div id="hitcon_team" class="ui-window ui-window-closed" style="top: 38px; left: 100px">
+				<div class="ui-window-header">
+					<h3>Team</h3>
+					<div class="ui-window-close"></div>
+				</div>
+				<div class="ui-window-scene ui-window-scene-title-img">
+					<ul class="team-member-list">
+						<li>
+							<span class="face" style="background-image:url('./images/team/allenown.jpg')"></span>
+							<span class="char">總召</span><span class="hidden-words">：</span>
+							<span class="name">Allen Own</span>
+						</li>
+						<li>
+							<span class="face" style="background-image:url('./images/team/pineapple.jpg')"></span>
+							<span class="char">副總召</span><span class="hidden-words">：</span>
+							<span class="name">PineApple</span>
+						</li>
+						<li>
+							<span class="face" style="background-image:url('./images/team/turkey.jpg')"></span>
+							<span class="char">社團法人台灣駭客協會 秘書長</span><span class="hidden-words">：</span>
+							<span class="name">Turkey</span>
+						</li>
+						<li>
+							<span class="face" style="background-image:url('./images/team/jal.jpg')"></span>
+							<span class="char">議程組長</span><span class="hidden-words">：</span>
+							<span class="name">Jal</span>
+						</li>
+						<li>
+							<span class="face" style="background-image:url('./images/team/awan.jpg')"></span>
+							<span class="char">議程助理組長</span><span class="hidden-words">：</span>
+							<span class="name">阿旺</span>
+						</li>
+						<li>
+							<span class="face" style="background-image:url('./images/team/shirley.jpg')"></span>
+							<span class="char">公關組長</span><span class="hidden-words">：</span>
+							<span class="name">Shirley</span>
+						</li>
+						<li>
+							<span class="face" style="background-image:url('./images/team/tai.jpg')"></span>
+							<span class="char">公關文宣組長</span><span class="hidden-words">：</span>
+							<span class="name">泰泰</span>
+						</li>
+						<li>
+							<span class="face" style="background-image:url('./images/team/joey.jpg')"></span>
+							<span class="char">活動組長</span><span class="hidden-words">：</span>
+							<span class="name">Joey</span>
+						</li>
+						<li>
+							<span class="face" style="background-image:url('./images/team/nofacee.jpg')"></span>
+							<span class="char">紀錄組長</span><span class="hidden-words">：</span>
+							<span class="name">othree</span>
+						</li>
+						<li>
+							<span class="face" style="background-image:url('./images/team/orange.jpg')"></span>
+							<span class="char">形象組長</span><span class="hidden-words">：</span>
+							<span class="name">柳丁皮蒙面俠</span>
+						</li>
+						<li>
+							<span class="face" style="background-image:url('./images/team/serrok.jpg')"></span>
+							<span class="char">形象組長</span><span class="hidden-words">：</span>
+							<span class="name">Serrok</span>
+						</li>
+						<li>
+							<span class="face" style="background-image:url('./images/team/nofacee.jpg')"></span>
+							<span class="char">翻譯組長</span><span class="hidden-words">：</span>
+							<span class="name">JLurker</span>
+						</li>
+						<li>
+							<span class="face" style="background-image:url('./images/team/mouse.jpg')"></span>
+							<span class="char">設備組長</span><span class="hidden-words">：</span>
+							<span class="name">MouseMs</span>
+						</li>
+						<li>
+							<span class="face" style="background-image:url('./images/team/xun.jpg')"></span>
+							<span class="char">行政組長</span><span class="hidden-words">：</span>
+							<span class="name">珣珣</span>
+						</li>
+						<li>
+							<span class="face" style="background-image:url('./images/team/su.jpg')"></span>
+							<span class="char">行政組票務組長</span><span class="hidden-words">：</span>
+							<span class="name">小蘇</span>
+						</li>
+						<li>
+							<span class="face" style="background-image:url('./images/team/xuejie.jpg')"></span>
+							<span class="char">行政組物流組長</span><span class="hidden-words">：</span>
+							<span class="name">學姊</span>
+						</li>
+						<li>
+							<span class="face" style="background-image:url('./images/team/yuci.jpg')"></span>
+							<span class="char">行政組場務組長</span><span class="hidden-words">：</span>
+							<span class="name">ws育慈</span>
+						</li>
+						<li>
+							<span class="face" style="background-image:url('./images/team/ji.jpg')"></span>
+							<span class="char">行政組場務餐飲組長</span><span class="hidden-words">：</span>
+							<span class="name">阿吉</span>
+						</li>
+						<li>
+							<span class="face" style="background-image:url('./images/team/rain.jpg')"></span>
+							<span class="char">行政組場務報到組長</span><span class="hidden-words">：</span>
+							<span class="name">遇雨</span>
+						</li>
+						<li>
+							<span class="face" style="background-image:url('./images/team/fateyan.jpg')"></span>
+							<span class="char">行政組場務門機組長</span><span class="hidden-words">：</span>
+							<span class="name">fateyan</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div id="hitcon_coc" class="ui-window ui-window-closed" style="top: 38px; left: 100px">
+				<div class="ui-window-header">
+					<h3>Code of Conduct</h3>
+					<div class="ui-window-close"></div>
+				</div>
+				<div class="ui-window-scene ui-window-scene-title-img">
+					<h4>行為準則</h4>
+					<p>所有此次活動的聽眾、演講者、贊助商和志工，都必須同意遵守下列行為準則。而主辦單位也將嚴格地執行這些準則，我們期待所有參加者的合作，以確保大家能有一個安全友善的環境。</p>
+					<p>騷擾包括有關性別，性別認同、年齡、性向、殘疾、外貌、體型、種族、宗教的攻擊性言語，或是在公共場合散播色情圖片、蓄意恐嚇、跟踪、騷擾性的攝影或錄影、多次打斷活動、不恰當的身體接觸，和讓人感到不舒服的性關注。參與者必須停止任何騷擾行為並且立即遵守行為準則。</p>
+					<p>贊助商也必須遵守行為準則。贊助商不應該使用帶有性意味的圖像、活動，或其它材料。工作人員（包括志工）不該穿著帶有性意味的衣服/制服/裝扮，或是建立一個具有性意味的環境。</p>
+					<p>如果參與者從事騷擾行為，工作人員會採取其認為適當的任何手段，包括警告或是請離會場，並且不會退費。</p>
+					<p>如果你被騷擾、看到別人受到騷擾，或有任何其他問題，請立即聯繫會議工作人員，工作人員身上會穿戴可以識別身份的特殊徽章或衣服。</p>
+					<p>工作人員會很樂意幫助參與者聯繫酒店/場地警衛或當地警察、提供護送，或以其他方式幫助那些遇到騷擾的參與者感到安全。我們非常重視您的參與。</p>
+					<p>我們希望參與者在各活動場合、會議有關的社群活動都能遵循這些規則。</p>
+					<p>此行為準則是基於Conference Code of Conduct(http://confcodeofconduct.com/)而訂定。</p>
+					<h4>Conference Code of Conduct</h4>
+					<p>All attendees, speakers, sponsors and volunteers at our conference are required to agree to following the code of conduct. Organizers will enforce this code of conduct throughout the event. We are expecting cooperation from all participants to help ensure a safe environment for everybody.</p>
+					<p>Harassment includes offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.</p>
+					<p>Participants asked to stop any harassing behavior are expected to comply immediately. Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualized images, activities, or other material. Booth staff (including volunteers) should not use sexualized clothing/uniforms/customes, or otherwise create a sexualized environment.</p>
+					<p>If a participant engages in harassing behavior, the conference organizers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund. If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff will be visible by their special badges and clothing.</p>
+					<p>Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance. We expect participants to follow these rules at all conference venues and conference-related social events.</p>
+					<p>This code of conduct is based off the work done at Conference Code of Conduct.</p>
+				</div>
+			</div>
+		</section>
+	</article>
+<!--
+ 	<div class="dock">
+		<div class="dock-app">
+			<a href=""><span class="app-icon ico-terminal"></span><span class="app-label">terminal</span></a>
+		</div>
+	</div>
+-->
+	<footer>
+		<p>Designed by Serrok &amp; Orange.</p>
+		<p>© 2016 HITCON. All Rights Reserved.</p>
+	</footer>
+	<script src="https://use.fontawesome.com/299b3876de.js"></script>
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script src="https://fb.me/react-15.0.1.js"></script>
+	<script src="https://fb.me/react-dom-15.0.1.js"></script>
+	<script src="./js/hitcon-os-12.js"></script>
+	<script src="./js/agenda-data.js"></script>
+	<script src="./js/agenda.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB44Ne2B_H8jJQZr66rRMhg0c5DN71BxKw"></script>
+	<script type="text/javascript">
+	  var map;
+	  function initialize() {
+	    var hitconStyles = [
+	        {
+	          stylers: [
+	            { invert_lightness: true },
+	            { hue: "#9BABC8" },
+	            { saturation: 100 },
+	            { lightness: 39 },
+	            { gamma: 0.48 }
+	          ]
+	        },{
+	          featureType: "road.highway",
+	          stylers: [
+	            { hue: "#01579B" }
+	          ]
+	        },{
+	          featureType: "road.local",
+	          stylers: [
+	            { hue: "#01579B" }
+	          ]
+	        },{
+	          featureType: "landscape",
+	          stylers: [
+	            { gamma: 0.57 }
+	          ]
+	        },{
+	          featureType: "poi.government",
+	          stylers: [
+	            { lightness: 50 },
+	            { hue: "#99ff00" },
+	            { saturation: -18 }
+	          ]
+	        },{
+	          featureType: "transit.station",
+	          stylers: [
+	            { hue: "#00ffff" },
+	            { saturation: 75 },
+	            { gamma: 0.92 }
+	          ]
+	        }
+	      ];
+
+	    var hitconMapType = new google.maps.StyledMapType(hitconStyles, {name: "Hitcon Map"});
+
+	    var myOptions = {
+	      zoom: 15,
+	      center: new google.maps.LatLng(25.04342,121.61449),
+	      mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'hitcon_map'],
+	      title:"HITCON 2012"
+	    };
+
+	    var map = new google.maps.Map(document.getElementById("map_canvas"),myOptions);
+	    map.mapTypes.set('hitcon_map', hitconMapType);
+	    map.setMapTypeId('hitcon_map');
+	    
+	    var MarkerImage = 'images/map-marker.svg';
+
+	    var marker = new google.maps.Marker({
+				position: new google.maps.LatLng(25.041052,121.611436),
+				animation: google.maps.Animation.DROP,
+				title:"HITCON 2016",
+				icon: MarkerImage
+			});
+
+			setTimeout(function(){
+	    	marker.setMap(map);
+	    }, 1000);
+
+	  }
+
+	  google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<!-- Google Tag Manager -->
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WTGXCG"
+	  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-WTGXCG');</script>
+	<!-- End Google Tag Manager -->
+	<script>
+	window.fbAsyncInit = function() {
+	FB.init({
+	  appId      : '110257429064833',
+	  xfbml      : true,
+	  version    : 'v2.6'
+	});
+	};
+
+	(function(d, s, id){
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) {return;}
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/en_US/sdk.js";
+	fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+	</script>
+</body>
+</html>
+<!--
+o++/+oshddmmdhso+-                                  ````````````````````````....`.``...`                                
+o++/+oshddmmmhso+-                                  ````````````````````````.......``..``                               
+o++//+sydddmmhso+-                                          `````````````````.........```                               
+-++//+oydhdmmhso/- `./:.                       .-::/:-.                   ````````.....``                               
+ /+//+oyhhdmdys+/-`-:/:-`                    .+soso+/==.                                                                
+ -+//+oshyhddyo+/-``  `                      ..==//-..```                                                               
+ `+//++syyhdhso+/-``..`                      `.-://:-.`                                                                 
+  :::/+ossyhhso+/-  ```                       `-``.  ``                               `````                             
+        /osyyo//:-                             ```/.``                             `-:..-:-`                            
+        ::/+yy::-.                               `      `                         .//-..-.-.                            
+        ..:.`. `                               ```````  `                         -:-`     `                            
+        ```                        ``     `.....:+`       `````                  ``-.                                   
+          `                              ........``.`   ```...``                 ````+`                                 
+        `````                           `......`-`.+-`````..``      `  `        ```-:-`.`                               
+        ..-:.                           `.....````+-`.``..```                   `` .-` `                                
+        ===:`                           `.....`..-...`..`` `                    `` `:-.``                               
+     ```.==.                            ``...`....``````      `                  `                                      
+    `````.`                            ` ``.``-.``````       `                                                          
+ -` ``  ``.`                             `.. ==.````       ``                   ..                                      
+  ``....```                              ````..` ``           ``               ...                                      
+        `.....``                      `   ``..   `           ``               ````    ``                                
+   ``````` `.` `````                `..`   /-             `                  ..``  `````                                
+   ```````````````````````          .... ` :.   ```      ``` ``              .` ``````                                  
+   ` ````````````````        ``````.....` ..` ```  ````````                                                             
+   `        ``                     ```..````  ```...``````                                                              
+"Given the prices that we charge to students and schools, what sort of improvements have been made in HITCON 12?"
+
+
+             `-/oso::-:========..```           -.```````.- .:```:/-``    `.dmysyh++hNMNhoymNNNmmmNNNyoymshomN/::-       
+             .+syyh/..```    ```...==============...```         ...==   ``.dmh/:.``-+hNymMMMdNhyhmNNo++d++ymy/```.      
+              `..==::////++++++++///::-..`````````...==============-...```.+:         :oshdyosoohMMmo/sNooyoyo ...      
+            `.`sdhyhy+````````  ```..==::////+++++++///::==..```````....`-o-   ``.`.   `-//++/++osso+:/s+o+/yo ``       
+            ==`::::///`.``.```````````````````````````..==-::///+++++++:`:y` `-:-:/:.   oyosoo:====-:======-.```-.-     
+`          `:-`.`````.-:.`.``.``.`.::.``.``.``.`/h:`..```````````````````.:`  `.-...-`  +sosyh/-...```````.........     
+.````  `.  -/-..`````.sN:`....``.`.sm-.`.:..-.-::m+:y/...``.``..:/.....``.m-```-+..-:. :yyo.+oo-..==::-::::====-..`     
+....```..``:+.....-.-:+do:sdho+hhsshy/o.smhyhdhhdyddhNdo:....`.-sd==:..``.N/   `..`..``==/momos/-:.s+o/-++/   `````     
+```......``:/..-shydyyydhyooosho+hsoshhhsooyooooooosossyyho/+osdhdydyy-``.my-   `.``` `yhs//Noyy-/.hoso``+/  `.`..      
+```````````....-//:/:////:////////////////////++/++++++++shdysyo+oo:..`    `   `..`    shyy:dshy:+.y-/o`:-:` `...-`     
+                ```==```....==-:====-:::::://////////////////////:`                      `:::::==/.-//-./-.`  `-```     
+                 ..:+.``.::/s/osso```...==+-..```....:========:-`                          .:`.hhyh+.:sso:..:///:==`    
+                    ````````.....-```==://+///``-:::-ds+ys/`.-`                                .:/+-.:ssso...-yyhhh.    
+                            ``````````````````````````.....```                                   `.`-:````.........`    
+                                                         ``                                      .osyso/::///::/:/-.    
+                                                                                                  ``````````.......`    
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
+                                                 ``                                                                     
+                                              ..-::..```                                                                
+                                              ....`                                                                     
+                                                                                                                        
+"This year we put a ’12’ on the ticket."
+-->

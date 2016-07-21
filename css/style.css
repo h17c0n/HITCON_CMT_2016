@@ -1,0 +1,2019 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Iceland|Share+Tech+Mono);
+/* line 5, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 8, ../sass/_kit.scss */
+.hidden-words {
+  line-height: 0px;
+  font-size: 0px;
+  color: transparent;
+}
+
+/* line 3, ../sass/_font.scss */
+p, div {
+  font-family: sans-serif;
+}
+
+/* line 1, ../sass/_layout.scss */
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background-color: #050607;
+  background-image: url("../images/hitcon-background-m.jpg");
+  background-position: bottom right;
+  background-size: cover;
+  padding: 54px 2px 0px;
+}
+
+@media (min-width: 1000px) {
+  /* line 10, ../sass/_layout.scss */
+  html {
+    height: 100%;
+  }
+
+  /* line 13, ../sass/_layout.scss */
+  body {
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    padding: 4px;
+    background-image: url("../images/hitcon-background.jpg");
+  }
+}
+/* line 24, ../sass/_layout.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 27, ../sass/_layout.scss */
+body > header {
+  height: 42px;
+  position: fixed;
+  z-index: 1000;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: #050607;
+}
+@media (min-width: 1000px) {
+  /* line 27, ../sass/_layout.scss */
+  body > header {
+    height: auto;
+    position: static;
+    background: none;
+  }
+}
+/* line 42, ../sass/_layout.scss */
+body > header h1 {
+  line-height: 0px;
+  font-size: 0px;
+  color: transparent;
+}
+/* line 47, ../sass/_layout.scss */
+body > header h1 a {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 20px;
+  display: block;
+  position: fixed;
+  z-index: 1100;
+  top: 21px;
+  left: 57px;
+  right: 2px;
+  padding: 0px 5px;
+  text-decoration: none;
+  background-color: #01579B;
+}
+@media (min-width: 1000px) {
+  /* line 47, ../sass/_layout.scss */
+  body > header h1 a {
+    width: 160px;
+    height: 24px;
+    top: 2px;
+    left: 2px;
+    right: none;
+    padding: 0px 20px;
+  }
+}
+/* line 69, ../sass/_layout.scss */
+body > header h1 a::before {
+  content: 'HITCON OS 12 / CMT';
+  display: block;
+  margin: auto;
+  line-height: 19px;
+  text-align: left;
+  font-family: 'Iceland';
+  font-size: 18px;
+  color: #9BABC8;
+}
+@media (min-width: 1000px) {
+  /* line 69, ../sass/_layout.scss */
+  body > header h1 a::before {
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+  }
+}
+/* line 86, ../sass/_layout.scss */
+body > header .ui-status {
+  height: 20px;
+  display: block;
+  padding-left: 60px;
+}
+@media (min-width: 1000px) {
+  /* line 86, ../sass/_layout.scss */
+  body > header .ui-status {
+    height: 24px;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1050;
+    top: 2px;
+    right: 20px;
+    margin-right: auto;
+    padding-left: 0px;
+    vertical-align: middle;
+    line-height: 24px;
+    font-size: 20px;
+  }
+}
+/* line 105, ../sass/_layout.scss */
+body > header .ui-status .ui-stack {
+  float: right;
+  padding-right: 6px;
+}
+/* line 108, ../sass/_layout.scss */
+body > header .ui-status .ui-stack::before {
+  content: '\f012\f294\f1eb\f240';
+  letter-spacing: 4px;
+  vertical-align: middle;
+  font-family: FontAwesome;
+  line-height: 24px;
+  color: #9BABC8;
+}
+@media (min-width: 1000px) {
+  /* line 108, ../sass/_layout.scss */
+  body > header .ui-status .ui-stack::before {
+    content: '\f028\f294\f1eb\f240';
+    margin-right: 0px;
+    letter-spacing: 10px;
+    font-size: 18px;
+  }
+}
+@media (min-width: 1000px) {
+  /* line 105, ../sass/_layout.scss */
+  body > header .ui-status .ui-stack {
+    padding-right: 10px;
+  }
+}
+/* line 127, ../sass/_layout.scss */
+body > header .ui-status .ui-clock {
+  height: 24px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  line-height: 24px;
+  font-size: 18px;
+  font-family: 'Iceland';
+  color: #9BABC8;
+}
+@media (min-width: 1000px) {
+  /* line 127, ../sass/_layout.scss */
+  body > header .ui-status .ui-clock {
+    position: static;
+    float: right;
+  }
+}
+
+/* line 147, ../sass/_layout.scss */
+body > nav {
+  position: fixed;
+  z-index: 1001;
+  height: 36px;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  padding: 0px 0px 4px;
+}
+@media (min-width: 1000px) {
+  /* line 147, ../sass/_layout.scss */
+  body > nav {
+    background-color: #050607;
+  }
+}
+/* line 159, ../sass/_layout.scss */
+body > nav::after {
+  content: '';
+  display: block;
+  height: 1px;
+  margin-top: 0px;
+  border-top: 1px solid rgba(155, 171, 200, 0.75);
+  border-bottom: 1px solid rgba(155, 171, 200, 0.5);
+  background-color: #050607;
+}
+@media (min-width: 1000px) {
+  /* line 147, ../sass/_layout.scss */
+  body > nav {
+    height: 32px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+  }
+  /* line 173, ../sass/_layout.scss */
+  body > nav::after {
+    height: 1px;
+    margin-top: 0px;
+  }
+}
+/* line 178, ../sass/_layout.scss */
+body > nav ul {
+  display: none;
+}
+@media (min-width: 1000px) {
+  /* line 178, ../sass/_layout.scss */
+  body > nav ul {
+    display: flex;
+    flex-direction: row;
+    padding-left: 164px;
+    height: 100%;
+  }
+}
+/* line 188, ../sass/_layout.scss */
+body > nav ul li {
+  height: 28px;
+}
+/* line 191, ../sass/_layout.scss */
+body > nav ul li a {
+  display: block;
+  cursor: default;
+  padding: 0px 20px;
+  font-family: 'Iceland', 'Monaco', monospace;
+  line-height: 28px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+/* line 201, ../sass/_layout.scss */
+body > nav a:link, body > nav a:visited {
+  color: #9BABC8;
+}
+/* line 204, ../sass/_layout.scss */
+body > nav a:hover, body > nav a:active {
+  background-color: #050607;
+  color: #9BABC8;
+}
+/* line 208, ../sass/_layout.scss */
+body > nav a.inactive:link, body > nav a.inactive:visited, body > nav a.inactive:hover, body > nav a.inactive:active {
+  color: rgba(155, 171, 200, 0.5);
+}
+/* line 211, ../sass/_layout.scss */
+body > nav .burger-king {
+  width: 46px;
+  height: 40px;
+  margin-left: 8px;
+  margin-top: 0px;
+  border: 2px solid #9BABC8;
+  border-bottom: none;
+  line-height: 42px;
+  text-align: center;
+}
+/* line 222, ../sass/_layout.scss */
+body > nav .burger-king::after {
+  content: '';
+  width: 0px;
+  height: 0px;
+  display: inline-block;
+  z-index: 1;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 10px solid #9BABC8;
+}
+@media (min-width: 1000px) {
+  /* line 211, ../sass/_layout.scss */
+  body > nav .burger-king {
+    display: none;
+  }
+  /* line 234, ../sass/_layout.scss */
+  body > nav .burger-king::after {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  /* line 241, ../sass/_layout.scss */
+  body > article.main-desktop {
+    position: fixed;
+    z-index: 50;
+    overflow: hidden;
+    top: 32px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+  }
+}
+
+/* line 252, ../sass/_layout.scss */
+body > footer {
+  padding: 2px;
+  text-align: center;
+}
+/* line 256, ../sass/_layout.scss */
+body > footer p {
+  font-family: 'Iceland';
+  line-height: 15px;
+  font-size: 13px;
+  color: #AAAAAA;
+}
+@media (min-width: 1000px) {
+  /* line 252, ../sass/_layout.scss */
+  body > footer {
+    position: fixed;
+    height: 34px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    text-align: left;
+  }
+}
+
+/* line 271, ../sass/_layout.scss */
+.ui-window {
+  border: 1px solid #9BABC8;
+  color: #CFD8DC;
+  background-color: #050607;
+  box-shadow: 2px 2px 0px #364561;
+  margin: 0px 8px 20px 8px;
+}
+@media (min-width: 1000px) {
+  /* line 271, ../sass/_layout.scss */
+  .ui-window {
+    width: 49.67742%;
+    height: 40%;
+    position: fixed;
+    overflow: hidden;
+    margin: 0px;
+  }
+}
+@media (min-width: 1440px) {
+  /* line 271, ../sass/_layout.scss */
+  .ui-window {
+    width: 600px;
+  }
+}
+/* line 289, ../sass/_layout.scss */
+.ui-window::before {
+  content: '';
+  display: block;
+  position: relative;
+}
+/* line 294, ../sass/_layout.scss */
+.ui-window .ui-window-header {
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  font-family: 'Iceland';
+  font-size: 22px;
+  background-color: #9BABC8;
+  color: #050607;
+}
+@media (min-width: 1000px) {
+  /* line 294, ../sass/_layout.scss */
+  .ui-window .ui-window-header {
+    height: 18px;
+    line-height: 18px;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    left: 2px;
+    font-size: 18px;
+  }
+}
+/* line 312, ../sass/_layout.scss */
+.ui-window .ui-window-header::after {
+  content: '';
+  height: 1px;
+  display: block;
+  margin-top: 1px;
+  background-color: #9BABC8;
+}
+/* line 320, ../sass/_layout.scss */
+.ui-window .ui-window-header .ui-window-close {
+  display: none;
+}
+@media (min-width: 1000px) {
+  /* line 320, ../sass/_layout.scss */
+  .ui-window .ui-window-header .ui-window-close {
+    width: 18px;
+    height: 18px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 1px solid #9BABC8;
+    cursor: default;
+    background-image: url("../images/ui-close-window.svg");
+    background-color: #050607;
+    color: #9BABC8;
+    line-height: 15px;
+    font-size: 14px;
+  }
+}
+/* line 339, ../sass/_layout.scss */
+.ui-window .ui-window-scene {
+  padding: 20px 10px 10px;
+}
+/* line 342, ../sass/_layout.scss */
+.ui-window .ui-window-scene p {
+  margin-bottom: 10px;
+  text-align: left;
+  line-height: 20px;
+  font-size: 14px;
+}
+/* line 348, ../sass/_layout.scss */
+.ui-window .ui-window-scene p:last-child {
+  margin-bottom: 0px;
+}
+/* line 351, ../sass/_layout.scss */
+.ui-window .ui-window-scene h4 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #80DEEA;
+}
+/* line 357, ../sass/_layout.scss */
+.ui-window .ui-window-scene h4:first-of-type {
+  margin-top: 0px;
+}
+/* line 360, ../sass/_layout.scss */
+.ui-window .ui-window-scene h5 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #28c7dc;
+}
+/* line 366, ../sass/_layout.scss */
+.ui-window .ui-window-scene h5:first-of-type {
+  margin-top: 0px;
+}
+@media (min-width: 1000px) {
+  /* line 339, ../sass/_layout.scss */
+  .ui-window .ui-window-scene {
+    position: absolute;
+    overflow: auto;
+    top: 26px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    padding: 10px;
+  }
+  /* line 378, ../sass/_layout.scss */
+  .ui-window .ui-window-scene p {
+    margin-bottom: 10px;
+    text-align: left;
+    line-height: 24px;
+    font-size: 14px;
+  }
+  /* line 384, ../sass/_layout.scss */
+  .ui-window .ui-window-scene p:last-child {
+    margin-bottom: 5px;
+  }
+}
+/* line 388, ../sass/_layout.scss */
+.ui-window .ui-window-scene a:link, .ui-window .ui-window-scene a:visited, .ui-window .ui-window-scene a:hover, .ui-window .ui-window-scene a:active {
+  color: #6a82ad;
+}
+/* line 391, ../sass/_layout.scss */
+.ui-window .ui-window-scene ul {
+  list-style: square inside;
+  margin-bottom: 10px;
+  text-align: left;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+/* line 400, ../sass/_layout.scss */
+.ui-window-closed {
+  display: none;
+}
+
+/* line 403, ../sass/_layout.scss */
+.desktop-icons {
+  display: none;
+  position: fixed;
+  top: 45px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 1000;
+  background-color: #050607;
+}
+@media (min-width: 1000px) {
+  /* line 403, ../sass/_layout.scss */
+  .desktop-icons {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 40px;
+    left: 0px;
+    z-index: auto;
+    background: none;
+  }
+}
+/* line 424, ../sass/_layout.scss */
+.desktop-icons ul {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: block;
+}
+@media (min-width: 1000px) {
+  /* line 424, ../sass/_layout.scss */
+  .desktop-icons ul {
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+  }
+}
+/* line 436, ../sass/_layout.scss */
+.desktop-icons ul li, .desktop-icons ul li a, .desktop-icons .app-icon, .desktop-icons .app-label {
+  display: block;
+}
+/* line 439, ../sass/_layout.scss */
+.desktop-icons ul li {
+  width: 130px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+@media (min-width: 1000px) {
+  /* line 439, ../sass/_layout.scss */
+  .desktop-icons ul li {
+    display: inline-block;
+    width: 120px;
+    margin-bottom: 20px;
+    -webkit-writing-mode: initial;
+    -ms-writing-mode: initial;
+    writing-mode: initial;
+  }
+}
+/* line 452, ../sass/_layout.scss */
+.desktop-icons ul li a {
+  cursor: default;
+  text-decoration: none;
+}
+/* line 456, ../sass/_layout.scss */
+.desktop-icons .app-icon {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  margin-bottom: 5px;
+  background-size: 60px;
+}
+/* line 463, ../sass/_layout.scss */
+.desktop-icons .app-label {
+  text-align: center;
+  font-family: monospace;
+  line-height: 16px;
+  font-size: 12px;
+  background-color: #050607;
+  color: #FFFFFF;
+}
+
+/* line 472, ../sass/_layout.scss */
+.dock {
+  display: none;
+}
+@media (min-width: 1000px) {
+  /* line 472, ../sass/_layout.scss */
+  .dock {
+    width: 216px;
+    height: 60px;
+    display: flex;
+    z-index: 5000;
+    justify-content: center;
+    position: absolute;
+    margin: 0px auto;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    padding: 5px;
+    border: 1px solid #9BABC8;
+    border-bottom: none;
+    background-color: #050607;
+  }
+  /* line 490, ../sass/_layout.scss */
+  .dock .dock-app {
+    margin: 0px 2px;
+  }
+  /* line 493, ../sass/_layout.scss */
+  .dock .app-icon {
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-size: 50px 50px;
+  }
+  /* line 499, ../sass/_layout.scss */
+  .dock .app-label {
+    line-height: 0px;
+    font-size: 0px;
+  }
+}
+
+/* line 505, ../sass/_layout.scss */
+.app-icon, .app-label {
+  display: block;
+}
+
+/* line 506, ../sass/_layout.scss */
+.app-icon {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  margin-bottom: 5px;
+  background-size: 60px;
+}
+/* line 512, ../sass/_layout.scss */
+.app-icon .app-label {
+  text-align: center;
+  font-family: monospace;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+/* line 520, ../sass/_layout.scss */
+.ico-txt {
+  background-image: url("../images/ico-txt.svg");
+}
+
+/* line 523, ../sass/_layout.scss */
+.ico-hitcon {
+  background-image: url("../images/ico-hitcon.svg");
+}
+
+/* line 526, ../sass/_layout.scss */
+.ico-folder {
+  background-image: url("../images/ico-folder.svg");
+}
+
+/* line 529, ../sass/_layout.scss */
+.ico-hacker {
+  background-image: url("../images/ico-hacker.svg");
+}
+
+/* line 532, ../sass/_layout.scss */
+.ico-burpsuite {
+  background-image: url("../images/ico-burpsuite.png");
+}
+
+/* line 535, ../sass/_layout.scss */
+.ico-metasploit {
+  background-image: url("../images/ico-metasploit.png");
+}
+
+/* line 538, ../sass/_layout.scss */
+.ico-armitage {
+  background-image: url("../images/ico-armitage.png");
+}
+
+/* line 541, ../sass/_layout.scss */
+.ico-terminal {
+  background-image: url("../images/ico-terminal.svg");
+}
+
+/* line 544, ../sass/_layout.scss */
+.desktop-icons-opened {
+  display: block;
+}
+
+/* line 2, ../sass/_content.scss */
+#hitcon_registration .ui-window-scene {
+  padding: 10px;
+}
+/* line 4, ../sass/_content.scss */
+#hitcon_registration .ui-window-scene p {
+  margin-bottom: 0px;
+  text-align: center;
+}
+/* line 8, ../sass/_content.scss */
+#hitcon_registration .ui-window-scene p:nth-of-type(3), #hitcon_registration .ui-window-scene p:nth-of-type(5) {
+  margin-bottom: 20px;
+}
+/* line 11, ../sass/_content.scss */
+#hitcon_registration .ui-window-scene p:nth-of-type(6) {
+  margin-bottom: 10px;
+}
+/* line 14, ../sass/_content.scss */
+#hitcon_registration .ui-window-scene p:last-child {
+  margin-bottom: 30px;
+}
+/* line 17, ../sass/_content.scss */
+#hitcon_registration .ui-window-scene p.logo {
+  padding: 30px 0px 30px;
+}
+/* line 20, ../sass/_content.scss */
+#hitcon_registration .ui-window-scene img {
+  width: 200px;
+}
+/* line 23, ../sass/_content.scss */
+#hitcon_registration .ui-window-scene a {
+  width: 240px;
+  display: inline-block;
+  border: 1px solid #FFFFFF;
+  padding: 1px;
+  line-height: 36px;
+  font-size: 16px;
+  text-decoration: none;
+}
+/* line 32, ../sass/_content.scss */
+#hitcon_registration .ui-window-scene a > span {
+  display: block;
+  border: 1px solid #FFFFFF;
+}
+/* line 36, ../sass/_content.scss */
+#hitcon_registration .ui-window-scene a:link, #hitcon_registration .ui-window-scene a:visited {
+  color: #FFFFFF;
+}
+/* line 39, ../sass/_content.scss */
+#hitcon_registration .ui-window-scene a, #hitcon_registration .ui-window-scene a > span {
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -moz-transition-property: border, color;
+  -o-transition-property: border, color;
+  -webkit-transition-property: border, color;
+  transition-property: border, color;
+}
+/* line 43, ../sass/_content.scss */
+#hitcon_registration .ui-window-scene a.cfp:link, #hitcon_registration .ui-window-scene a.cfp:link > span, #hitcon_registration .ui-window-scene a.cfp:visited, #hitcon_registration .ui-window-scene a.cfp:visited > span {
+  border: 1px solid #b71c1c;
+  color: #b71c1c;
+}
+/* line 47, ../sass/_content.scss */
+#hitcon_registration .ui-window-scene a.cfp:hover, #hitcon_registration .ui-window-scene a.cfp:hover > span, #hitcon_registration .ui-window-scene a.cfp:active, #hitcon_registration .ui-window-scene a.cfp:active > span {
+  border: 1px solid #e55454;
+  color: #e55454;
+}
+/* line 51, ../sass/_content.scss */
+#hitcon_registration .ui-window-scene a.regis:link, #hitcon_registration .ui-window-scene a.regis:link > span, #hitcon_registration .ui-window-scene a.regis:visited, #hitcon_registration .ui-window-scene a.regis:visited > span {
+  border: 1px solid #2e7d32;
+  color: #2e7d32;
+}
+/* line 55, ../sass/_content.scss */
+#hitcon_registration .ui-window-scene a.regis:hover, #hitcon_registration .ui-window-scene a.regis:hover > span, #hitcon_registration .ui-window-scene a.regis:active, #hitcon_registration .ui-window-scene a.regis:active > span {
+  border: 1px solid #52bf57;
+  color: #52bf57;
+}
+@media (min-width: 1000px) {
+  /* line 1, ../sass/_content.scss */
+  #hitcon_registration {
+    width: 360px;
+    height: 520px;
+  }
+  /* line 64, ../sass/_content.scss */
+  #hitcon_registration p:last-child {
+    margin-bottom: 0px;
+  }
+  /* line 67, ../sass/_content.scss */
+  #hitcon_registration img {
+    width: 260px;
+  }
+}
+
+/* line 73, ../sass/_content.scss */
+.ui-window-scene-title-img::before {
+  content: '';
+  display: none;
+  width: 280px;
+  height: 52px;
+  margin: auto;
+  background-size: 280px 52px;
+}
+@media (min-width: 600px) {
+  /* line 73, ../sass/_content.scss */
+  .ui-window-scene-title-img::before {
+    width: 540px;
+    height: 100px;
+    display: block;
+    background-size: 540px 100px;
+  }
+}
+
+@media (min-width: 1000px) {
+  /* line 89, ../sass/_content.scss */
+  #hitcon_introduction {
+    width: 640px;
+    height: 620px;
+  }
+}
+/* line 94, ../sass/_content.scss */
+#hitcon_introduction .ui-window-scene::before {
+  background-image: url("../images/window-title/img-title-introduction.png");
+}
+
+@media (min-width: 1000px) {
+  /* line 99, ../sass/_content.scss */
+  #hitcon_agenda {
+    width: 800px;
+    height: 620px;
+  }
+}
+@media (min-width: 1280px) {
+  /* line 99, ../sass/_content.scss */
+  #hitcon_agenda {
+    width: 1000px;
+    height: 640px;
+  }
+}
+/* line 108, ../sass/_content.scss */
+#hitcon_agenda .ui-window-scene::before {
+  background-image: url("../images/window-title/img-title-agenda.png");
+}
+/* line 111, ../sass/_content.scss */
+#hitcon_agenda .hidden-words {
+  line-height: 0px;
+  font-size: 0px;
+  color: rgba(255, 255, 255, 0);
+}
+/* line 116, ../sass/_content.scss */
+#hitcon_agenda .session-list {
+  list-style: none;
+}
+/* line 118, ../sass/_content.scss */
+#hitcon_agenda .session-list span {
+  display: block;
+}
+/* line 119, ../sass/_content.scss */
+#hitcon_agenda .session-list li {
+  border-bottom: 1px solid #333333;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+/* line 123, ../sass/_content.scss */
+#hitcon_agenda .session-list li:last-child {
+  border: none;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+/* line 129, ../sass/_content.scss */
+#hitcon_agenda .session-list .title {
+  line-height: 24px;
+  font-size: 16px;
+  color: #28c7dc;
+}
+/* line 134, ../sass/_content.scss */
+#hitcon_agenda .session-list .speaker {
+  line-height: 18px;
+  font-size: 14px;
+}
+/* line 139, ../sass/_content.scss */
+#hitcon_agenda ul {
+  list-style: none;
+}
+/* line 2, ../sass/_kit.scss */
+#hitcon_agenda .agenda-switch-day::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+/* line 142, ../sass/_content.scss */
+#hitcon_agenda .agenda-switch-day li {
+  width: 49.01961%;
+  float: left;
+  margin-right: 1.96078%;
+}
+/* line 143, ../sass/_content.scss */
+#hitcon_agenda .agenda-switch-day li:last-child {
+  width: 49.01961%;
+  float: right;
+  margin-right: 0;
+}
+@media (min-width: 600px) {
+  /* line 145, ../sass/_content.scss */
+  #hitcon_agenda .agenda-switch-day li {
+    width: 49.35065%;
+    float: left;
+    margin-right: 1.2987%;
+  }
+  /* line 146, ../sass/_content.scss */
+  #hitcon_agenda .agenda-switch-day li:last-child {
+    width: 49.35065%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 1000px) {
+  /* line 149, ../sass/_content.scss */
+  #hitcon_agenda .agenda-switch-day li {
+    width: 49.51456%;
+    float: left;
+    margin-right: 0.97087%;
+  }
+  /* line 150, ../sass/_content.scss */
+  #hitcon_agenda .agenda-switch-day li:last-child {
+    width: 49.35065%;
+    float: right;
+    margin-right: 0;
+  }
+}
+/* line 152, ../sass/_content.scss */
+#hitcon_agenda .agenda-switch-day li a {
+  height: 30px;
+  display: block;
+  border: 1px solid #6a82ad;
+  text-align: center;
+  text-decoration: none;
+  line-height: 30px;
+}
+/* line 160, ../sass/_content.scss */
+#hitcon_agenda .agenda-switch-day li:last-child a {
+  margin-bottom: 0px;
+}
+/* line 163, ../sass/_content.scss */
+#hitcon_agenda .agenda-switch-day .indicate {
+  background-color: #6a82ad;
+}
+/* line 165, ../sass/_content.scss */
+#hitcon_agenda .agenda-switch-day .indicate a {
+  color: #FFFFFF;
+}
+/* line 168, ../sass/_content.scss */
+#hitcon_agenda .agenda-filter-options {
+  padding: 6px 0px;
+  display: none;
+}
+/* line 2, ../sass/_kit.scss */
+#hitcon_agenda .agenda-filter-options::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+/* line 174, ../sass/_content.scss */
+#hitcon_agenda .agenda-filter-options > li {
+  width: 21%;
+  height: 26px;
+  display: block;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+}
+/* line 184, ../sass/_content.scss */
+#hitcon_agenda .agenda-filter-options > li:first-child {
+  width: 16%;
+  padding-right: 5px;
+  opacity: 0;
+}
+/* line 189, ../sass/_content.scss */
+#hitcon_agenda .agenda-filter-options > li:first-child a {
+  border: 1px solid #268881;
+  color: #268881;
+}
+/* line 194, ../sass/_content.scss */
+#hitcon_agenda .agenda-filter-options > li:last-child {
+  margin-right: 0px;
+}
+/* line 197, ../sass/_content.scss */
+#hitcon_agenda .agenda-filter-options > li > a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 1px solid #6a82ad;
+  border-right: none;
+  line-height: 26px;
+  font-size: 14px;
+  text-decoration: none;
+}
+/* line 207, ../sass/_content.scss */
+#hitcon_agenda .agenda-filter-options > li:last-child > a {
+  border: 1px solid #6a82ad;
+}
+/* line 211, ../sass/_content.scss */
+#hitcon_agenda .agenda-table {
+  display: block;
+}
+@media (min-width: 1000px) {
+  /* line 211, ../sass/_content.scss */
+  #hitcon_agenda .agenda-table {
+    display: table;
+  }
+}
+/* line 216, ../sass/_content.scss */
+#hitcon_agenda .agenda-table tbody {
+  display: block;
+}
+@media (min-width: 1000px) {
+  /* line 216, ../sass/_content.scss */
+  #hitcon_agenda .agenda-table tbody {
+    display: table-row-group;
+  }
+}
+/* line 222, ../sass/_content.scss */
+#hitcon_agenda .agenda-table tr {
+  display: block;
+  border-top: 2px solid #5a74a3;
+  font-size: 14px;
+}
+@media (min-width: 1000px) {
+  /* line 222, ../sass/_content.scss */
+  #hitcon_agenda .agenda-table tr {
+    display: table-row;
+  }
+}
+/* line 229, ../sass/_content.scss */
+#hitcon_agenda .agenda-table tr:last-child {
+  border-bottom: 2px solid #5a74a3;
+}
+@media (min-width: 1000px) {
+  /* line 229, ../sass/_content.scss */
+  #hitcon_agenda .agenda-table tr:last-child {
+    border-bottom: none;
+  }
+}
+/* line 235, ../sass/_content.scss */
+#hitcon_agenda .agenda-table tr td {
+  display: block;
+  box-sizing: border-box;
+  padding: 5px;
+}
+@media (min-width: 1000px) {
+  /* line 235, ../sass/_content.scss */
+  #hitcon_agenda .agenda-table tr td {
+    display: table-cell;
+  }
+}
+/* line 243, ../sass/_content.scss */
+#hitcon_agenda .agenda-table tr td:first-child {
+  vertical-align: top;
+  padding: 2px 0px 0px 0px;
+  text-align: center;
+  line-height: 20px;
+  font-family: monospace;
+  font-size: 12px;
+}
+@media (min-width: 1000px) {
+  /* line 243, ../sass/_content.scss */
+  #hitcon_agenda .agenda-table tr td:first-child {
+    padding-right: 5px;
+    padding-bottom: 5px;
+  }
+}
+/* line 254, ../sass/_content.scss */
+#hitcon_agenda .agenda-table tr td:first-child span {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: #3f5172;
+  color: #FFFFFF;
+}
+/* line 262, ../sass/_content.scss */
+#hitcon_agenda .agenda-table tr li.title {
+  margin-bottom: 5px;
+  font-weight: bold;
+  line-height: 18px;
+  font-size: 14px;
+  color: #80DEEA;
+}
+/* line 269, ../sass/_content.scss */
+#hitcon_agenda .agenda-table tr li.speaker {
+  line-height: 16px;
+  font-size: 12px;
+}
+@media (min-width: 1000px) {
+  /* line 275, ../sass/_content.scss */
+  #hitcon_agenda .agenda-table tr.track-single td:first-child {
+    width: 16%;
+  }
+}
+/* line 280, ../sass/_content.scss */
+#hitcon_agenda .agenda-table tr.track-single td:nth-child(2) {
+  border-left: 1px solid #364561;
+  border-right: 1px solid #364561;
+}
+@media (min-width: 1000px) {
+  /* line 280, ../sass/_content.scss */
+  #hitcon_agenda .agenda-table tr.track-single td:nth-child(2) {
+    width: 84%;
+    border: none;
+  }
+}
+/* line 287, ../sass/_content.scss */
+#hitcon_agenda .agenda-table tr.track-single td:nth-child(2) ul {
+  margin-bottom: 0px;
+  text-align: center;
+}
+/* line 291, ../sass/_content.scss */
+#hitcon_agenda .agenda-table tr.track-single td:nth-child(2) li.title {
+  margin-bottom: 0px;
+}
+/* line 294, ../sass/_content.scss */
+#hitcon_agenda .agenda-table tr.track-single td:nth-child(2) li.speaker {
+  text-align: center;
+}
+/* line 300, ../sass/_content.scss */
+#hitcon_agenda .agenda-table tr.track-5 td {
+  vertical-align: top;
+  border-left: 1px solid #364561;
+  border-right: 1px solid #364561;
+}
+@media (min-width: 1000px) {
+  /* line 300, ../sass/_content.scss */
+  #hitcon_agenda .agenda-table tr.track-5 td {
+    width: 21%;
+    border-left: none;
+  }
+}
+/* line 309, ../sass/_content.scss */
+#hitcon_agenda .agenda-table tr.track-5 td::before {
+  height: 16px;
+  display: block;
+  margin-bottom: 5px;
+  padding: 0px 5px;
+  line-height: 16px;
+  font-size: 12px;
+  background-color: #333333;
+  color: #FFFFFF;
+  text-align: center;
+}
+/* line 321, ../sass/_content.scss */
+#hitcon_agenda .agenda-table tr.track-5 td:first-child {
+  border: none;
+}
+@media (min-width: 1000px) {
+  /* line 321, ../sass/_content.scss */
+  #hitcon_agenda .agenda-table tr.track-5 td:first-child {
+    width: 16%;
+    border-right: none;
+  }
+}
+/* line 327, ../sass/_content.scss */
+#hitcon_agenda .agenda-table tr.track-5 td:first-child::before {
+  content: none;
+}
+/* line 331, ../sass/_content.scss */
+#hitcon_agenda .agenda-table tr.track-5 td:nth-child(2)::before {
+  content: 'R0';
+  background-color: #751212;
+}
+/* line 335, ../sass/_content.scss */
+#hitcon_agenda .agenda-table tr.track-5 td:nth-child(3)::before {
+  content: 'R1';
+  background-color: #1f2973;
+}
+/* line 339, ../sass/_content.scss */
+#hitcon_agenda .agenda-table tr.track-5 td:nth-child(4)::before {
+  content: 'R2';
+  background-color: #005046;
+}
+/* line 343, ../sass/_content.scss */
+#hitcon_agenda .agenda-table tr.track-5 td:nth-child(5)::before {
+  content: 'R4 (交誼廳)';
+  background-color: #3e2925;
+}
+@media (min-width: 1000px) {
+  /* line 347, ../sass/_content.scss */
+  #hitcon_agenda .agenda-table tr.track-5 td:last-child {
+    border-right: none;
+  }
+}
+/* line 353, ../sass/_content.scss */
+#hitcon_agenda .agenda-table tr td.clickable {
+  cursor: pointer;
+}
+/* line 355, ../sass/_content.scss */
+#hitcon_agenda .agenda-table tr td.clickable .title {
+  text-decoration: underline;
+}
+/* line 359, ../sass/_content.scss */
+#hitcon_agenda .agenda-table tr td.lunch ul {
+  background-color: #364561;
+}
+/* line 361, ../sass/_content.scss */
+#hitcon_agenda .agenda-table tr td.lunch ul li.title {
+  line-height: 30px;
+  color: #FFFFFF;
+}
+/* line 368, ../sass/_content.scss */
+#hitcon_agenda .agenda-session-info .goback {
+  text-align: center;
+}
+@media (min-width: 1000px) {
+  /* line 368, ../sass/_content.scss */
+  #hitcon_agenda .agenda-session-info .goback {
+    text-align: left;
+  }
+}
+/* line 373, ../sass/_content.scss */
+#hitcon_agenda .agenda-session-info .goback .goback-button {
+  height: 30px;
+  display: inline-block;
+  padding: 0px 20px;
+  border: 1px solid #6a82ad;
+  text-align: center;
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 14px;
+}
+/* line 383, ../sass/_content.scss */
+#hitcon_agenda .agenda-session-info .goback .goback-button::before {
+  content: '';
+  width: 0px;
+  height: 0px;
+  display: block;
+  float: left;
+  margin-top: 6px;
+  margin-right: 5px;
+  border-right: 12px solid #6a82ad;
+  border-bottom: 8px solid transparent;
+  border-top: 8px solid transparent;
+}
+/* line 396, ../sass/_content.scss */
+#hitcon_agenda .agenda-session-info .session-title {
+  border-top: 2px solid #167b88;
+  border-bottom: 2px solid #167b88;
+  margin-top: 10px;
+  padding: 5px 0px;
+  text-align: center;
+  line-height: 24px;
+  font-size: 18px;
+}
+@media (min-width: 1000px) {
+  /* line 396, ../sass/_content.scss */
+  #hitcon_agenda .agenda-session-info .session-title {
+    line-height: 30px;
+    font-size: 22px;
+  }
+}
+/* line 409, ../sass/_content.scss */
+#hitcon_agenda .agenda-session-info .session-time {
+  margin-bottom: 5px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+/* line 415, ../sass/_content.scss */
+#hitcon_agenda .agenda-session-info .session-hall {
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #0c3f46;
+}
+/* line 419, ../sass/_content.scss */
+#hitcon_agenda .agenda-session-info .session-hall span {
+  height: 20px;
+  display: inline-block;
+  margin-right: 5px;
+  padding: 0px 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  background-color: #111111;
+  color: #FFFFFF;
+}
+/* line 430, ../sass/_content.scss */
+#hitcon_agenda .agenda-session-info .session-hall span:last-child {
+  margin-right: 0px;
+}
+/* line 433, ../sass/_content.scss */
+#hitcon_agenda .agenda-session-info .session-hall .hall-r0 {
+  background-color: #751212;
+}
+/* line 434, ../sass/_content.scss */
+#hitcon_agenda .agenda-session-info .session-hall .hall-r1 {
+  background-color: #1d276b;
+}
+/* line 435, ../sass/_content.scss */
+#hitcon_agenda .agenda-session-info .session-hall .hall-r2 {
+  background-color: #005046;
+}
+/* line 436, ../sass/_content.scss */
+#hitcon_agenda .agenda-session-info .session-hall .hall-r4 {
+  background-color: #3e2925;
+}
+/* line 438, ../sass/_content.scss */
+#hitcon_agenda .agenda-session-info .session-spkr {
+  padding: 10px 0px;
+  border-bottom: 1px solid #0c3f46;
+}
+/* line 441, ../sass/_content.scss */
+#hitcon_agenda .agenda-session-info .session-spkr .speaker-pict {
+  text-align: center;
+  margin-bottom: 5px;
+}
+/* line 444, ../sass/_content.scss */
+#hitcon_agenda .agenda-session-info .session-spkr .speaker-pict img {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  border-radius: 80px;
+  margin: auto;
+  margin-right: 20px;
+}
+@media (min-width: 720px) {
+  /* line 444, ../sass/_content.scss */
+  #hitcon_agenda .agenda-session-info .session-spkr .speaker-pict img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+  }
+}
+@media (min-width: 1000px) {
+  /* line 444, ../sass/_content.scss */
+  #hitcon_agenda .agenda-session-info .session-spkr .speaker-pict img {
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+  }
+}
+/* line 463, ../sass/_content.scss */
+#hitcon_agenda .agenda-session-info .session-spkr .speaker-pict img:last-child {
+  margin-right: 0px;
+}
+/* line 468, ../sass/_content.scss */
+#hitcon_agenda .agenda-session-info .session-spkr div.speaker-name {
+  text-align: center;
+  line-height: 20px;
+  font-size: 16px;
+}
+/* line 475, ../sass/_content.scss */
+#hitcon_agenda .agenda-session-info .h6-title {
+  margin-top: 20px;
+  line-height: 24px;
+  font-size: 16px;
+  color: #21b6c9;
+}
+/* line 481, ../sass/_content.scss */
+#hitcon_agenda .agenda-session-info .h6-title:first-of-type {
+  margin-top: 10px;
+}
+
+@media (min-width: 1000px) {
+  /* line 487, ../sass/_content.scss */
+  #hitcon_location {
+    width: 680px;
+    height: 600px;
+  }
+}
+/* line 492, ../sass/_content.scss */
+#hitcon_location .ui-window-scene::before {
+  background-image: url("../images/window-title/img-title-location.png");
+}
+
+@media (min-width: 1000px) {
+  /* line 497, ../sass/_content.scss */
+  #hitcon_coc {
+    width: 800px;
+    height: 600px;
+  }
+}
+/* line 502, ../sass/_content.scss */
+#hitcon_coc .ui-window-scene::before {
+  background-image: url("../images/window-title/img-title-coc.png");
+}
+
+@media (min-width: 1000px) {
+  /* line 507, ../sass/_content.scss */
+  #hitcon_events {
+    width: 540px;
+    height: 380px;
+  }
+}
+/* line 512, ../sass/_content.scss */
+#hitcon_events ul {
+  list-style: none;
+  vertical-align: top;
+}
+/* line 515, ../sass/_content.scss */
+#hitcon_events ul li {
+  width: 120px;
+  margin-bottom: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 520, ../sass/_content.scss */
+#hitcon_events ul li a:link, #hitcon_events ul li a:visited, #hitcon_events ul li a:hover, #hitcon_events ul li a:active {
+  cursor: default;
+  text-decoration: none;
+}
+/* line 524, ../sass/_content.scss */
+#hitcon_events ul li a span.app-label {
+  text-align: center;
+  font-family: monospace;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+@media (min-width: 1000px) {
+  /* line 534, ../sass/_content.scss */
+  #hitcon_events_lightingtalk {
+    width: 680px;
+    height: 600px;
+  }
+}
+/* line 539, ../sass/_content.scss */
+#hitcon_events_lightingtalk .ui-window-scene::before {
+  background-image: url("../images/window-title/img-title-lightningtalk.png");
+}
+
+@media (min-width: 1000px) {
+  /* line 544, ../sass/_content.scss */
+  #hitcon_events_wallofsheep {
+    width: 640px;
+    height: 520px;
+  }
+}
+/* line 549, ../sass/_content.scss */
+#hitcon_events_wallofsheep .ui-window-scene::before {
+  background-image: url("../images/window-title/img-title-wallofsheep.png");
+}
+
+@media (min-width: 1000px) {
+  /* line 554, ../sass/_content.scss */
+  #hitcon_events_the78award {
+    width: 640px;
+    height: 580px;
+  }
+}
+/* line 559, ../sass/_content.scss */
+#hitcon_events_the78award .ui-window-scene::before {
+  background-image: url("../images/window-title/img-title-the78award.png");
+}
+
+@media (min-width: 1000px) {
+  /* line 564, ../sass/_content.scss */
+  #hitcon_events_communitysharing {
+    width: 640px;
+    height: 320px;
+  }
+}
+/* line 569, ../sass/_content.scss */
+#hitcon_events_communitysharing .ui-window-scene::before {
+  background-image: url("../images/window-title/img-title-communitysharing.png");
+}
+
+@media (min-width: 1000px) {
+  /* line 574, ../sass/_content.scss */
+  #hitcon_events_iownthisraspberrypi {
+    width: 640px;
+    height: 580px;
+  }
+}
+/* line 579, ../sass/_content.scss */
+#hitcon_events_iownthisraspberrypi .ui-window-scene::before {
+  background-image: url("../images/window-title/img-title-iownthisraspberrypi.png");
+}
+
+@media (min-width: 1000px) {
+  /* line 584, ../sass/_content.scss */
+  #hitcon_events_standsforhackers {
+    width: 640px;
+    height: 580px;
+  }
+}
+/* line 589, ../sass/_content.scss */
+#hitcon_events_standsforhackers .ui-window-scene::before {
+  background-image: url("../images/window-title/img-title-standsforhackers.png");
+}
+/* line 592, ../sass/_content.scss */
+#hitcon_events_standsforhackers ul {
+  list-style: none;
+}
+/* line 595, ../sass/_content.scss */
+#hitcon_events_standsforhackers ul.stands-list > li.stand {
+  margin-bottom: 20px;
+}
+/* line 599, ../sass/_content.scss */
+#hitcon_events_standsforhackers ul.stands-list > li.stand > ul li.stand-posi, #hitcon_events_standsforhackers ul.stands-list > li.stand > ul li.stand-type {
+  line-height: 20px;
+  font-size: 13px;
+  color: #1a8f9d;
+}
+/* line 604, ../sass/_content.scss */
+#hitcon_events_standsforhackers ul.stands-list > li.stand > ul li.stand-name {
+  line-height: 24px;
+  font-size: 18px;
+  color: #28c7dc;
+}
+
+/* line 613, ../sass/_content.scss */
+#hitcon_sponsors .ui-window-scene {
+  padding-bottom: 0px;
+}
+@media (min-width: 1000px) {
+  /* line 612, ../sass/_content.scss */
+  #hitcon_sponsors {
+    width: 800px;
+    height: 600px;
+  }
+  /* line 619, ../sass/_content.scss */
+  #hitcon_sponsors .ui-window-scene {
+    padding-bottom: 0px;
+  }
+}
+/* line 623, ../sass/_content.scss */
+#hitcon_sponsors h4 {
+  text-align: center;
+}
+/* line 626, ../sass/_content.scss */
+#hitcon_sponsors ul.sponsor-list {
+  display: block;
+  margin-bottom: 20px;
+  list-style: none;
+}
+/* line 2, ../sass/_kit.scss */
+#hitcon_sponsors ul.sponsor-list::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+/* line 631, ../sass/_content.scss */
+#hitcon_sponsors ul.sponsor-list:last-child {
+  margin-bottom: 5px;
+}
+/* line 634, ../sass/_content.scss */
+#hitcon_sponsors ul.sponsor-list li {
+  display: block;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  background-color: #FFFFFF;
+}
+@media (min-width: 600px) {
+  /* line 634, ../sass/_content.scss */
+  #hitcon_sponsors ul.sponsor-list li {
+    width: 49.67742%;
+    float: left;
+  }
+  /* line 66, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+  #hitcon_sponsors ul.sponsor-list li:nth-child(2n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+  /* line 66, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+  #hitcon_sponsors ul.sponsor-list li:nth-child(2n + 2) {
+    margin-left: 50.32258%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+/* line 643, ../sass/_content.scss */
+#hitcon_sponsors ul.sponsor-list li a {
+  text-decoration: none;
+  color: #333333;
+}
+/* line 647, ../sass/_content.scss */
+#hitcon_sponsors ul.sponsor-list li span {
+  display: block;
+  text-align: center;
+}
+/* line 651, ../sass/_content.scss */
+#hitcon_sponsors ul.sponsor-list li span.logo {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+/* line 655, ../sass/_content.scss */
+#hitcon_sponsors ul.sponsor-list li span.logo img {
+  width: 260px;
+  height: 100%;
+}
+@media (min-width: 360px) {
+  /* line 655, ../sass/_content.scss */
+  #hitcon_sponsors ul.sponsor-list li span.logo img {
+    width: auto;
+  }
+}
+/* line 663, ../sass/_content.scss */
+#hitcon_sponsors ul.sponsor-list li span.char {
+  text-align: center;
+  line-height: 18px;
+  font-size: 12px;
+  color: #37a6fe;
+}
+/* line 669, ../sass/_content.scss */
+#hitcon_sponsors ul.sponsor-list li span.name {
+  width: 250px;
+  margin: auto;
+  line-height: 20px;
+  font-size: 14px;
+  color: #333333;
+}
+@media (min-width: 600px) {
+  /* line 677, ../sass/_content.scss */
+  #hitcon_sponsors ul.sponsor-list li.sponsor-rayark {
+    padding: 40px 10px;
+  }
+}
+/* line 683, ../sass/_content.scss */
+#hitcon_sponsors ul.sponsor-list-4 {
+  display: block;
+  margin-bottom: 20px;
+  list-style: none;
+}
+/* line 2, ../sass/_kit.scss */
+#hitcon_sponsors ul.sponsor-list-4::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+/* line 688, ../sass/_content.scss */
+#hitcon_sponsors ul.sponsor-list-4:last-child {
+  margin-bottom: 5px;
+}
+/* line 691, ../sass/_content.scss */
+#hitcon_sponsors ul.sponsor-list-4 li {
+  display: block;
+  padding: 10px;
+  margin-bottom: 3px;
+  border-radius: 3px;
+  background-color: #FFFFFF;
+}
+@media (min-width: 400px) {
+  /* line 691, ../sass/_content.scss */
+  #hitcon_sponsors ul.sponsor-list-4 li {
+    width: 49.67742%;
+    float: left;
+  }
+  /* line 66, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+  #hitcon_sponsors ul.sponsor-list-4 li:nth-child(2n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+  /* line 66, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+  #hitcon_sponsors ul.sponsor-list-4 li:nth-child(2n + 2) {
+    margin-left: 50.32258%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+@media (min-width: 600px) {
+  /* line 691, ../sass/_content.scss */
+  #hitcon_sponsors ul.sponsor-list-4 li {
+    width: 32.90323%;
+    float: left;
+  }
+  /* line 66, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+  #hitcon_sponsors ul.sponsor-list-4 li:nth-child(3n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+  /* line 66, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+  #hitcon_sponsors ul.sponsor-list-4 li:nth-child(3n + 2) {
+    margin-left: 33.54839%;
+    margin-right: -100%;
+    clear: none;
+  }
+  /* line 66, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+  #hitcon_sponsors ul.sponsor-list-4 li:nth-child(3n + 3) {
+    margin-left: 67.09677%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+@media (min-width: 768px) {
+  /* line 691, ../sass/_content.scss */
+  #hitcon_sponsors ul.sponsor-list-4 li {
+    width: 24.51613%;
+    float: left;
+    margin-bottom: 5px;
+  }
+  /* line 66, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+  #hitcon_sponsors ul.sponsor-list-4 li:nth-child(4n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+  /* line 66, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+  #hitcon_sponsors ul.sponsor-list-4 li:nth-child(4n + 2) {
+    margin-left: 25.16129%;
+    margin-right: -100%;
+    clear: none;
+  }
+  /* line 66, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+  #hitcon_sponsors ul.sponsor-list-4 li:nth-child(4n + 3) {
+    margin-left: 50.32258%;
+    margin-right: -100%;
+    clear: none;
+  }
+  /* line 66, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+  #hitcon_sponsors ul.sponsor-list-4 li:nth-child(4n + 4) {
+    margin-left: 75.48387%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+/* line 707, ../sass/_content.scss */
+#hitcon_sponsors ul.sponsor-list-4 li a {
+  text-decoration: none;
+  color: #333333;
+}
+/* line 711, ../sass/_content.scss */
+#hitcon_sponsors ul.sponsor-list-4 li span {
+  display: block;
+  text-align: center;
+}
+/* line 715, ../sass/_content.scss */
+#hitcon_sponsors ul.sponsor-list-4 li span.logo {
+  width: 100%;
+  text-align: center;
+}
+/* line 719, ../sass/_content.scss */
+#hitcon_sponsors ul.sponsor-list-4 li span.logo img {
+  width: 100%;
+  height: auto;
+}
+@media (min-width: 768px) {
+  /* line 719, ../sass/_content.scss */
+  #hitcon_sponsors ul.sponsor-list-4 li span.logo img {
+    width: 100%;
+    height: auto;
+  }
+}
+/* line 728, ../sass/_content.scss */
+#hitcon_sponsors ul.sponsor-list-4 li span.char {
+  text-align: center;
+  line-height: 18px;
+  font-size: 12px;
+  color: #37a6fe;
+}
+/* line 734, ../sass/_content.scss */
+#hitcon_sponsors ul.sponsor-list-4 li span.name {
+  width: 90%;
+  margin: auto;
+  line-height: 20px;
+  font-size: 12px;
+  color: #333333;
+}
+
+@media (min-width: 1000px) {
+  /* line 745, ../sass/_content.scss */
+  #hitcon_team {
+    width: 800px;
+    height: 600px;
+  }
+}
+/* line 750, ../sass/_content.scss */
+#hitcon_team .ui-window-scene::before {
+  margin-bottom: 10px;
+  background-image: url("../images/window-title/img-title-team.png");
+}
+/* line 754, ../sass/_content.scss */
+#hitcon_team h4 {
+  text-align: center;
+}
+/* line 757, ../sass/_content.scss */
+#hitcon_team ul.team-member-list {
+  display: block;
+  margin-bottom: 20px;
+  list-style: none;
+}
+/* line 2, ../sass/_kit.scss */
+#hitcon_team ul.team-member-list::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+/* line 762, ../sass/_content.scss */
+#hitcon_team ul.team-member-list:last-child {
+  margin-bottom: 5px;
+}
+/* line 765, ../sass/_content.scss */
+#hitcon_team ul.team-member-list li {
+  display: block;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+@media (min-width: 600px) {
+  /* line 765, ../sass/_content.scss */
+  #hitcon_team ul.team-member-list li {
+    width: 49.67742%;
+    float: left;
+  }
+  /* line 66, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+  #hitcon_team ul.team-member-list li:nth-child(2n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+  /* line 66, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+  #hitcon_team ul.team-member-list li:nth-child(2n + 2) {
+    margin-left: 50.32258%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+@media (min-width: 768px) {
+  /* line 765, ../sass/_content.scss */
+  #hitcon_team ul.team-member-list li {
+    width: 32.90323%;
+    float: left;
+  }
+  /* line 66, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+  #hitcon_team ul.team-member-list li:nth-child(3n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+  /* line 66, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+  #hitcon_team ul.team-member-list li:nth-child(3n + 2) {
+    margin-left: 33.54839%;
+    margin-right: -100%;
+    clear: none;
+  }
+  /* line 66, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+  #hitcon_team ul.team-member-list li:nth-child(3n + 3) {
+    margin-left: 67.09677%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+@media (min-width: 1000px) {
+  /* line 765, ../sass/_content.scss */
+  #hitcon_team ul.team-member-list li {
+    width: 24.51613%;
+    float: left;
+  }
+  /* line 66, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+  #hitcon_team ul.team-member-list li:nth-child(4n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+  /* line 66, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+  #hitcon_team ul.team-member-list li:nth-child(4n + 2) {
+    margin-left: 25.16129%;
+    margin-right: -100%;
+    clear: none;
+  }
+  /* line 66, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+  #hitcon_team ul.team-member-list li:nth-child(4n + 3) {
+    margin-left: 50.32258%;
+    margin-right: -100%;
+    clear: none;
+  }
+  /* line 66, ../../../.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+  #hitcon_team ul.team-member-list li:nth-child(4n + 4) {
+    margin-left: 75.48387%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+/* line 779, ../sass/_content.scss */
+#hitcon_team ul.team-member-list li a {
+  text-decoration: none;
+  color: #333333;
+}
+/* line 783, ../sass/_content.scss */
+#hitcon_team ul.team-member-list li span {
+  display: block;
+  text-align: center;
+}
+/* line 787, ../sass/_content.scss */
+#hitcon_team ul.team-member-list li span.face {
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 60px;
+  background-position: center;
+  background-size: cover;
+}
+/* line 796, ../sass/_content.scss */
+#hitcon_team ul.team-member-list li span.char {
+  text-align: center;
+  line-height: 18px;
+  font-size: 12px;
+  color: #37a6fe;
+}
+/* line 802, ../sass/_content.scss */
+#hitcon_team ul.team-member-list li span.name {
+  line-height: 20px;
+  font-size: 14px;
+}
+
+/* line 1, ../sass/_terminal.scss */
+#hitcon_os_12_terminal, .hos-12-terminal {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 5, ../sass/_terminal.scss */
+#hitcon_terminal .ui-window-scene {
+  padding: 0px 5px 5px;
+}
+
+/* line 8, ../sass/_terminal.scss */
+.hos-12-terminal {
+  display: flex;
+  flex-direction: column;
+}
+/* line 11, ../sass/_terminal.scss */
+.hos-12-terminal .terminal-input-label {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+/* line 18, ../sass/_terminal.scss */
+.hos-12-terminal .terminal-display-section {
+  overflow: hidden;
+}
+/* line 21, ../sass/_terminal.scss */
+.hos-12-terminal .terminal-display-section div,
+.hos-12-terminal .terminal-input-text-display {
+  line-height: 18px;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: unset;
+  font-size: 12px;
+  font-family: 'Monaco', monospace;
+  color: #00FF00;
+}
+/* line 30, ../sass/_terminal.scss */
+.hos-12-terminal .terminal-input-text-display::before {
+  content: 'HITCON-OS-12:~ root$ ';
+}
+/* line 33, ../sass/_terminal.scss */
+.hos-12-terminal .terminal-input-section input {
+  opacity: 0;
+}
