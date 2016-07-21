@@ -1442,29 +1442,41 @@ body > footer p {
 
 @media (min-width: 1000px) {
   /* line 507, ../sass/_content.scss */
+  #hitcon_notice {
+    width: 800px;
+    height: 600px;
+  }
+}
+/* line 512, ../sass/_content.scss */
+#hitcon_notice .ui-window-scene::before {
+  background-image: url("../images/window-title/img-title-notice.png");
+}
+
+@media (min-width: 1000px) {
+  /* line 517, ../sass/_content.scss */
   #hitcon_events {
     width: 540px;
     height: 380px;
   }
 }
-/* line 512, ../sass/_content.scss */
+/* line 522, ../sass/_content.scss */
 #hitcon_events ul {
   list-style: none;
   vertical-align: top;
 }
-/* line 515, ../sass/_content.scss */
+/* line 525, ../sass/_content.scss */
 #hitcon_events ul li {
   width: 120px;
   margin-bottom: 20px;
   display: inline-block;
   vertical-align: top;
 }
-/* line 520, ../sass/_content.scss */
+/* line 530, ../sass/_content.scss */
 #hitcon_events ul li a:link, #hitcon_events ul li a:visited, #hitcon_events ul li a:hover, #hitcon_events ul li a:active {
   cursor: default;
   text-decoration: none;
 }
-/* line 524, ../sass/_content.scss */
+/* line 534, ../sass/_content.scss */
 #hitcon_events ul li a span.app-label {
   text-align: center;
   font-family: monospace;
@@ -1473,117 +1485,117 @@ body > footer p {
 }
 
 @media (min-width: 1000px) {
-  /* line 534, ../sass/_content.scss */
+  /* line 544, ../sass/_content.scss */
   #hitcon_events_lightingtalk {
     width: 680px;
     height: 600px;
   }
 }
-/* line 539, ../sass/_content.scss */
+/* line 549, ../sass/_content.scss */
 #hitcon_events_lightingtalk .ui-window-scene::before {
   background-image: url("../images/window-title/img-title-lightningtalk.png");
 }
 
 @media (min-width: 1000px) {
-  /* line 544, ../sass/_content.scss */
+  /* line 554, ../sass/_content.scss */
   #hitcon_events_wallofsheep {
     width: 640px;
     height: 520px;
   }
 }
-/* line 549, ../sass/_content.scss */
+/* line 559, ../sass/_content.scss */
 #hitcon_events_wallofsheep .ui-window-scene::before {
   background-image: url("../images/window-title/img-title-wallofsheep.png");
 }
 
 @media (min-width: 1000px) {
-  /* line 554, ../sass/_content.scss */
+  /* line 564, ../sass/_content.scss */
   #hitcon_events_the78award {
     width: 640px;
     height: 580px;
   }
 }
-/* line 559, ../sass/_content.scss */
+/* line 569, ../sass/_content.scss */
 #hitcon_events_the78award .ui-window-scene::before {
   background-image: url("../images/window-title/img-title-the78award.png");
 }
 
 @media (min-width: 1000px) {
-  /* line 564, ../sass/_content.scss */
+  /* line 574, ../sass/_content.scss */
   #hitcon_events_communitysharing {
     width: 640px;
     height: 320px;
   }
 }
-/* line 569, ../sass/_content.scss */
+/* line 579, ../sass/_content.scss */
 #hitcon_events_communitysharing .ui-window-scene::before {
   background-image: url("../images/window-title/img-title-communitysharing.png");
 }
 
 @media (min-width: 1000px) {
-  /* line 574, ../sass/_content.scss */
+  /* line 584, ../sass/_content.scss */
   #hitcon_events_iownthisraspberrypi {
     width: 640px;
     height: 580px;
   }
 }
-/* line 579, ../sass/_content.scss */
+/* line 589, ../sass/_content.scss */
 #hitcon_events_iownthisraspberrypi .ui-window-scene::before {
   background-image: url("../images/window-title/img-title-iownthisraspberrypi.png");
 }
 
 @media (min-width: 1000px) {
-  /* line 584, ../sass/_content.scss */
+  /* line 594, ../sass/_content.scss */
   #hitcon_events_standsforhackers {
     width: 640px;
     height: 580px;
   }
 }
-/* line 589, ../sass/_content.scss */
+/* line 599, ../sass/_content.scss */
 #hitcon_events_standsforhackers .ui-window-scene::before {
   background-image: url("../images/window-title/img-title-standsforhackers.png");
 }
-/* line 592, ../sass/_content.scss */
+/* line 602, ../sass/_content.scss */
 #hitcon_events_standsforhackers ul {
   list-style: none;
 }
-/* line 595, ../sass/_content.scss */
+/* line 605, ../sass/_content.scss */
 #hitcon_events_standsforhackers ul.stands-list > li.stand {
   margin-bottom: 20px;
 }
-/* line 599, ../sass/_content.scss */
+/* line 609, ../sass/_content.scss */
 #hitcon_events_standsforhackers ul.stands-list > li.stand > ul li.stand-posi, #hitcon_events_standsforhackers ul.stands-list > li.stand > ul li.stand-type {
   line-height: 20px;
   font-size: 13px;
   color: #1a8f9d;
 }
-/* line 604, ../sass/_content.scss */
+/* line 614, ../sass/_content.scss */
 #hitcon_events_standsforhackers ul.stands-list > li.stand > ul li.stand-name {
   line-height: 24px;
   font-size: 18px;
   color: #28c7dc;
 }
 
-/* line 613, ../sass/_content.scss */
+/* line 623, ../sass/_content.scss */
 #hitcon_sponsors .ui-window-scene {
   padding-bottom: 0px;
 }
 @media (min-width: 1000px) {
-  /* line 612, ../sass/_content.scss */
+  /* line 622, ../sass/_content.scss */
   #hitcon_sponsors {
     width: 800px;
     height: 600px;
   }
-  /* line 619, ../sass/_content.scss */
+  /* line 629, ../sass/_content.scss */
   #hitcon_sponsors .ui-window-scene {
     padding-bottom: 0px;
   }
 }
-/* line 623, ../sass/_content.scss */
+/* line 633, ../sass/_content.scss */
 #hitcon_sponsors h4 {
   text-align: center;
 }
-/* line 626, ../sass/_content.scss */
+/* line 636, ../sass/_content.scss */
 #hitcon_sponsors ul.sponsor-list {
   display: block;
   margin-bottom: 20px;
@@ -1595,11 +1607,11 @@ body > footer p {
   display: block;
   clear: both;
 }
-/* line 631, ../sass/_content.scss */
+/* line 641, ../sass/_content.scss */
 #hitcon_sponsors ul.sponsor-list:last-child {
   margin-bottom: 5px;
 }
-/* line 634, ../sass/_content.scss */
+/* line 644, ../sass/_content.scss */
 #hitcon_sponsors ul.sponsor-list li {
   display: block;
   padding: 10px;
@@ -1608,7 +1620,7 @@ body > footer p {
   background-color: #FFFFFF;
 }
 @media (min-width: 600px) {
-  /* line 634, ../sass/_content.scss */
+  /* line 644, ../sass/_content.scss */
   #hitcon_sponsors ul.sponsor-list li {
     width: 49.67742%;
     float: left;
@@ -1627,41 +1639,41 @@ body > footer p {
     clear: none;
   }
 }
-/* line 643, ../sass/_content.scss */
+/* line 653, ../sass/_content.scss */
 #hitcon_sponsors ul.sponsor-list li a {
   text-decoration: none;
   color: #333333;
 }
-/* line 647, ../sass/_content.scss */
+/* line 657, ../sass/_content.scss */
 #hitcon_sponsors ul.sponsor-list li span {
   display: block;
   text-align: center;
 }
-/* line 651, ../sass/_content.scss */
+/* line 661, ../sass/_content.scss */
 #hitcon_sponsors ul.sponsor-list li span.logo {
   width: 100%;
   height: 200px;
   text-align: center;
 }
-/* line 655, ../sass/_content.scss */
+/* line 665, ../sass/_content.scss */
 #hitcon_sponsors ul.sponsor-list li span.logo img {
   width: 260px;
   height: 100%;
 }
 @media (min-width: 360px) {
-  /* line 655, ../sass/_content.scss */
+  /* line 665, ../sass/_content.scss */
   #hitcon_sponsors ul.sponsor-list li span.logo img {
     width: auto;
   }
 }
-/* line 663, ../sass/_content.scss */
+/* line 673, ../sass/_content.scss */
 #hitcon_sponsors ul.sponsor-list li span.char {
   text-align: center;
   line-height: 18px;
   font-size: 12px;
   color: #37a6fe;
 }
-/* line 669, ../sass/_content.scss */
+/* line 679, ../sass/_content.scss */
 #hitcon_sponsors ul.sponsor-list li span.name {
   width: 250px;
   margin: auto;
@@ -1670,12 +1682,12 @@ body > footer p {
   color: #333333;
 }
 @media (min-width: 600px) {
-  /* line 677, ../sass/_content.scss */
+  /* line 687, ../sass/_content.scss */
   #hitcon_sponsors ul.sponsor-list li.sponsor-rayark {
     padding: 40px 10px;
   }
 }
-/* line 683, ../sass/_content.scss */
+/* line 693, ../sass/_content.scss */
 #hitcon_sponsors ul.sponsor-list-4 {
   display: block;
   margin-bottom: 20px;
@@ -1687,11 +1699,11 @@ body > footer p {
   display: block;
   clear: both;
 }
-/* line 688, ../sass/_content.scss */
+/* line 698, ../sass/_content.scss */
 #hitcon_sponsors ul.sponsor-list-4:last-child {
   margin-bottom: 5px;
 }
-/* line 691, ../sass/_content.scss */
+/* line 701, ../sass/_content.scss */
 #hitcon_sponsors ul.sponsor-list-4 li {
   display: block;
   padding: 10px;
@@ -1700,7 +1712,7 @@ body > footer p {
   background-color: #FFFFFF;
 }
 @media (min-width: 400px) {
-  /* line 691, ../sass/_content.scss */
+  /* line 701, ../sass/_content.scss */
   #hitcon_sponsors ul.sponsor-list-4 li {
     width: 49.67742%;
     float: left;
@@ -1720,7 +1732,7 @@ body > footer p {
   }
 }
 @media (min-width: 600px) {
-  /* line 691, ../sass/_content.scss */
+  /* line 701, ../sass/_content.scss */
   #hitcon_sponsors ul.sponsor-list-4 li {
     width: 32.90323%;
     float: left;
@@ -1746,7 +1758,7 @@ body > footer p {
   }
 }
 @media (min-width: 768px) {
-  /* line 691, ../sass/_content.scss */
+  /* line 701, ../sass/_content.scss */
   #hitcon_sponsors ul.sponsor-list-4 li {
     width: 24.51613%;
     float: left;
@@ -1778,41 +1790,41 @@ body > footer p {
     clear: none;
   }
 }
-/* line 707, ../sass/_content.scss */
+/* line 717, ../sass/_content.scss */
 #hitcon_sponsors ul.sponsor-list-4 li a {
   text-decoration: none;
   color: #333333;
 }
-/* line 711, ../sass/_content.scss */
+/* line 721, ../sass/_content.scss */
 #hitcon_sponsors ul.sponsor-list-4 li span {
   display: block;
   text-align: center;
 }
-/* line 715, ../sass/_content.scss */
+/* line 725, ../sass/_content.scss */
 #hitcon_sponsors ul.sponsor-list-4 li span.logo {
   width: 100%;
   text-align: center;
 }
-/* line 719, ../sass/_content.scss */
+/* line 729, ../sass/_content.scss */
 #hitcon_sponsors ul.sponsor-list-4 li span.logo img {
   width: 100%;
   height: auto;
 }
 @media (min-width: 768px) {
-  /* line 719, ../sass/_content.scss */
+  /* line 729, ../sass/_content.scss */
   #hitcon_sponsors ul.sponsor-list-4 li span.logo img {
     width: 100%;
     height: auto;
   }
 }
-/* line 728, ../sass/_content.scss */
+/* line 738, ../sass/_content.scss */
 #hitcon_sponsors ul.sponsor-list-4 li span.char {
   text-align: center;
   line-height: 18px;
   font-size: 12px;
   color: #37a6fe;
 }
-/* line 734, ../sass/_content.scss */
+/* line 744, ../sass/_content.scss */
 #hitcon_sponsors ul.sponsor-list-4 li span.name {
   width: 90%;
   margin: auto;
@@ -1822,22 +1834,22 @@ body > footer p {
 }
 
 @media (min-width: 1000px) {
-  /* line 745, ../sass/_content.scss */
+  /* line 755, ../sass/_content.scss */
   #hitcon_team {
     width: 800px;
     height: 600px;
   }
 }
-/* line 750, ../sass/_content.scss */
+/* line 760, ../sass/_content.scss */
 #hitcon_team .ui-window-scene::before {
   margin-bottom: 10px;
   background-image: url("../images/window-title/img-title-team.png");
 }
-/* line 754, ../sass/_content.scss */
+/* line 764, ../sass/_content.scss */
 #hitcon_team h4 {
   text-align: center;
 }
-/* line 757, ../sass/_content.scss */
+/* line 767, ../sass/_content.scss */
 #hitcon_team ul.team-member-list {
   display: block;
   margin-bottom: 20px;
@@ -1849,11 +1861,11 @@ body > footer p {
   display: block;
   clear: both;
 }
-/* line 762, ../sass/_content.scss */
+/* line 772, ../sass/_content.scss */
 #hitcon_team ul.team-member-list:last-child {
   margin-bottom: 5px;
 }
-/* line 765, ../sass/_content.scss */
+/* line 775, ../sass/_content.scss */
 #hitcon_team ul.team-member-list li {
   display: block;
   padding: 10px;
@@ -1861,7 +1873,7 @@ body > footer p {
   border-radius: 3px;
 }
 @media (min-width: 600px) {
-  /* line 765, ../sass/_content.scss */
+  /* line 775, ../sass/_content.scss */
   #hitcon_team ul.team-member-list li {
     width: 49.67742%;
     float: left;
@@ -1881,7 +1893,7 @@ body > footer p {
   }
 }
 @media (min-width: 768px) {
-  /* line 765, ../sass/_content.scss */
+  /* line 775, ../sass/_content.scss */
   #hitcon_team ul.team-member-list li {
     width: 32.90323%;
     float: left;
@@ -1907,7 +1919,7 @@ body > footer p {
   }
 }
 @media (min-width: 1000px) {
-  /* line 765, ../sass/_content.scss */
+  /* line 775, ../sass/_content.scss */
   #hitcon_team ul.team-member-list li {
     width: 24.51613%;
     float: left;
@@ -1938,17 +1950,17 @@ body > footer p {
     clear: none;
   }
 }
-/* line 779, ../sass/_content.scss */
+/* line 789, ../sass/_content.scss */
 #hitcon_team ul.team-member-list li a {
   text-decoration: none;
   color: #333333;
 }
-/* line 783, ../sass/_content.scss */
+/* line 793, ../sass/_content.scss */
 #hitcon_team ul.team-member-list li span {
   display: block;
   text-align: center;
 }
-/* line 787, ../sass/_content.scss */
+/* line 797, ../sass/_content.scss */
 #hitcon_team ul.team-member-list li span.face {
   width: 120px;
   height: 120px;
@@ -1958,14 +1970,14 @@ body > footer p {
   background-position: center;
   background-size: cover;
 }
-/* line 796, ../sass/_content.scss */
+/* line 806, ../sass/_content.scss */
 #hitcon_team ul.team-member-list li span.char {
   text-align: center;
   line-height: 18px;
   font-size: 12px;
   color: #37a6fe;
 }
-/* line 802, ../sass/_content.scss */
+/* line 812, ../sass/_content.scss */
 #hitcon_team ul.team-member-list li span.name {
   line-height: 20px;
   font-size: 14px;
